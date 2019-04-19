@@ -1,6 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import styled from 'styled-components'
 import { Toolbar } from '../../Toolbar/Toolbar'
 import { NavigationMenu } from '../../Navigation/Navigation'
 import Brand from '../../Brand/Brand'
@@ -8,25 +7,26 @@ import "./Page.css"
 
 const Layout = ({ children }) => (
     <div className="site">
-        <header>
-            <div className="container">
-                <Toolbar>
-                    <Brand />
-                    <NavigationMenu />
-                </Toolbar>
-            </div>
-        </header>
+        <div className="sidebar">
+            <NavigationMenu />
+        </div>
         <main>
-            <div className="Container">
-                { children }
+            <header>
+                <div className="container">
+                    <Toolbar>
+                        <Brand />
+                    </Toolbar>
+                </div>
+            </header>
+            <div className="content">
+                <div className="container">
+                    { children }
+                </div>
             </div>
+            <footer>
+                &copy; { new Date().getFullYear() } Data Translator
+            </footer>
         </main>
-        <footer>
-            <div className="container">
-                &copy; {new Date().getFullYear()} <br/>
-                Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </div>
-        </footer>
     </div>
 )
 

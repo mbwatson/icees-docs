@@ -1,7 +1,25 @@
 .site {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
+}
+
+.sidebar {
+    min-width: 200px;
+    background-color: #eee;
+    border-right: 1px solid #222;
+    padding-top: 100px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1080px;
+    /*margin: 0 auto;*/
 }
 
 header {
@@ -9,9 +27,7 @@ header {
     margin-bottom: 1rem;
 }
 
-main {
-    max-width: 960px;
-    margin: 0 auto;
+.content {
     maxWidth: 960px;
     padding: 0px 1.0875rem 1.45rem;
     padding-top: 0;
@@ -25,17 +41,15 @@ footer {
     font-size: 90%;
 }
 
+main a,
 footer a {
     color: var(--color-accent);
     border-bottom: 1px solid transparent;
     transition: border-bottom 250ms;
 }
 
+main a:hover,
 footer a:hover {
     border-bottom: 1px solid var(--color-accent);
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}

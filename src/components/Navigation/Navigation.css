@@ -1,40 +1,31 @@
-.NavigationMenu {
-    height: 100%;
+.menu {
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.NavigationMenuItem {
-    color: #fff;
-    min-height: 80px;
+.menuItem,
+.submenuItem {
+    color: #222;
     text-decoration: none;
-    padding: 0 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0.5rem 1rem;
     transition: background-color 250ms;
 }
 
-.NavigationMenuItem:hover {
-    background-color: #444;
+.submenuItem {
+    padding: 0.5rem 2rem;
+}
+
+.menuItem:hover,
+.submenuItem:hover {
+    background-color: #ddd;
 }
 
 .active {
-    position: relative;
-}
-
-.active::after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: "";
-    height: 5px;
     background-color: var(--color-accent);
 }
 
 .active:hover {
-    background-color: #333;
+    background-color: var(--color-accent);
 }
 
