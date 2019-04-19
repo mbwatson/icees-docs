@@ -1,9 +1,11 @@
-html {
-  font-family: sans-serif;
+
+ html {
+  font-family: var(--heading-font);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-size: 14pt;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,6 +44,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -200,7 +203,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: var(--paragraph-font);
+  line-height: 1.5;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
