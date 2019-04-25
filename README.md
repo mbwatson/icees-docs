@@ -111,9 +111,41 @@ menuLinks: [
 
 ## Deployment
 
-This site is currently deployed to Github Pages with a `gh-pages` Node module. To deploy a bundled, static version of the site, execute `npm run deploy`. Configuration for this deployment lives in a script within the `package.json` file.
+This site is currently deployed to Github Pages with a `gh-pages` Node module. Details on building and deploying the application follow.
 
-Some notes about deployment to GitHub Pages with `gh-pages`: 
+Suppose your GitHub username is `jane-doe`, and the name of the repository to which the build will be deployed is `my-cool-repo`. Then after deployment, the site will be acccessible at `jane-doe.github.io/my-cool-repo`.
+
+### Specify the Repo
+
+The repo needs to be added to the main export in `gatsby-config.js` as a property of the main export.
+
+```js
+pathPrefix: "/my-cool-repo",
+```
+
+This tells Gatsby to prefix the site's routes with your repo name during the build process. For example, users will be accessing the site via routes that look like `jane-doe.github.io/my-cool-repo/about` and `jane-doe.github.io/my-cool-repo/contact`.
+
+### Define the Build Script
+
+Now, we make our lives easier by defining a build script in `package.json`.
+
+The fiollowing custom script
+
+```js
+"scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+}
+```
+
+tells Gatsby to create the production build of the site, use prefix paths (detailed above), and tells `gh-pages` to push everything in the `public` directory to the `gh-pages` branch of the specified repo.
+
+### Deploy
+
+To deploy the bundled, static version of the site, we can simply execute the following command.
+
+```bash
+$ npm run deploy
+```
 
 ## About Gatsby
 
