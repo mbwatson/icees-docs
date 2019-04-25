@@ -6,14 +6,14 @@
 
 .menuItem,
 .submenuItem {
-    color: #222;
+    color: #444;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 1rem;
     transition: background-color 250ms;
 }
 
 .submenuItem {
-    padding: 0.5rem 2rem;
+    padding: 0.25rem 2rem;
 }
 
 .menuItem:hover,
@@ -23,9 +23,9 @@
 
 .active {
     background-color: var(--color-accent);
+    &:hover {
+        background-color: var(--color-accent);
+    }
 }
 
-.active:hover {
-    background-color: var(--color-accent);
-}
 

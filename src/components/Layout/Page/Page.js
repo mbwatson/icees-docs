@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Toolbar } from '../../Toolbar/Toolbar'
 import { NavigationMenu } from '../../Navigation/Navigation'
 import Brand from '../../Brand/Brand'
-import "./Page.css"
+import "./Page.scss"
 
 const Layout = ({ children }) => (
     <div className="site">

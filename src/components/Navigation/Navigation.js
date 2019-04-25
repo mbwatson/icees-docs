@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types"
 import styled from 'styled-components'
-import './Navigation.css'
+import './Navigation.scss'
 import { StaticQuery, Link } from 'gatsby'
 
 export const MenuItem = ({ to, text, children }) => {
