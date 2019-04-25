@@ -3,6 +3,8 @@ path: "/about/gamma"
 title: "Gamma"
 seo:
     title: "Gamma"
+    keywords: ""
+    description: ""
 ---
 
 

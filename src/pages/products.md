@@ -3,6 +3,8 @@ path: "/products"
 title: "Products"
 seo:
     title: "Products"
+    keywords: ""
+    description: ""
 ---
 
 

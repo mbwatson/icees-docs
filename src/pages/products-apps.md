@@ -3,6 +3,8 @@ path: "/products/apps"
 title: "Appss"
 seo:
     title: "Apps"
+    keywords: ""
+    description: ""
 ---
 
 

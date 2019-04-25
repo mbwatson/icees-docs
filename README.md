@@ -65,7 +65,16 @@ The first chunk of each page file contains the "frontmatter" in YAML syntax, whi
 - `title` - This defines the page title.
 - `seo` - This contains attributes to define properties for [search engine optimization](https://moz.com/beginners-guide-to-seo). The following SEO attributes can be provided on a per-page basis: `description`, `lang`, `meta`, `keywords` (as a comma-separated string), and `title`.
 
-The SEO is required for each page, and most of the attributes are optional. The `title` attribute, being the only one unique to each page, _is_ required. The rest will default to the global SEO settings. For example, if the `description` and `keywords` are not supplied in a page's frontmatter, the `description` and `keywords` attributes defined in `gatsby-config.js` will be used.
+The SEO is required for each page, and so is its `title` attribute, being the only thing definitely unique to each page. The remaining attributes will default to the global SEO settings if empty strings are defined in a page's frontmatter. For example, if the frontmatter has
+
+```yaml
+seo:
+    title: "Sample Page"
+    description: ""
+    keywords: ""
+```
+
+then the `description` and `keywords` attributes defined in `/gatsby-config.js` will be used for that page's SEO content.
 
 \* Note the difference between the two `title` attributes: the topmost `title` attribuate is rendered as HTML as the title of the page, in an `<h1>` tag, while the SEO `title` is what is provided to search engines and is what populates `document.title`. 
 

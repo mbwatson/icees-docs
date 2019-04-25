@@ -4,6 +4,7 @@ title: "Use Case: Clinical"
 seo:
     title: "Clinical Use Case"
     keywords: "data translator, use case, clinical"
+    description: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum eveniet dolorum, harum adipisci tempora non iure nisi necessitatibus magni earum, ea quos.

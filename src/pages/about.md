@@ -3,6 +3,8 @@ path: "/about"
 title: "About"
 seo:
     title: "About"
+    keywords: ""
+    description: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, maxime natus, corporis provident repellendus sequi tempore accusantium eum omnis, quam blanditiis reiciendis ipsam eos modi commodi doloribus excepturi porro. Illo.

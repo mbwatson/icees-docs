@@ -3,6 +3,8 @@ path: "/"
 title: "Home"
 seo:
     title: "Home"
+    keywords: ""
+    description: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nostrum, impedit adipisci.

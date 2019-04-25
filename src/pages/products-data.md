@@ -3,6 +3,8 @@ path: "/products/data"
 title: "Data"
 seo:
     title: "Data"
+    keywords: ""
+    description: ""
 ---
 
 
