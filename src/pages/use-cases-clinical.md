@@ -1,12 +1,9 @@
 ---
 path: "/use-cases/clinical"
 title: "Use Case: Clinical"
-date: "2019-04-24"
-author: "dt"
 seo:
-    title: "Use Case: Clinical"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, porro!"
+    title: "Clinical Use Case"
+    keywords: "data translator, use case, clinical"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum eveniet dolorum, harum adipisci tempora non iure nisi necessitatibus magni earum, ea quos.

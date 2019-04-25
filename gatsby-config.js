@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
         title: `Data Translator`,
-        description: `Data Translator.`,
-        author: `dt`,
+        description: `Data Translator`,
+        keywords: `data translator, renci`,
         menuLinks: [
             {
                 text: "Home",

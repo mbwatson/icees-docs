@@ -1,12 +1,8 @@
 ---
 path: "/"
 title: "Home"
-date: "2019-04-18"
-author: "dt"
 seo:
-    title: "Data Translator"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, porro!"
+    title: "Home"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nostrum, impedit adipisci.

@@ -1,12 +1,8 @@
 ---
 path: "/about/gamma"
 title: "Gamma"
-date: "2019-04-20"
-author: "dt"
 seo:
     title: "Gamma"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, porro!"
 ---
 
 

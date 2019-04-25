@@ -1,12 +1,8 @@
 ---
 path: "/products/apps"
 title: "Appss"
-date: "2019-04-21"
-author: "dt"
 seo:
     title: "Apps"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod pariatur labore iste."
 ---
 
 

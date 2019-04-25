@@ -1,12 +1,8 @@
 ---
 path: "/products"
 title: "Products"
-date: "2019-04-25"
-author: "dt"
 seo:
-    title: "Data Translator Products"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod pariatur labore iste."
+    title: "Products"
 ---
 
 

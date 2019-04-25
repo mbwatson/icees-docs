@@ -1,12 +1,8 @@
 ---
 path: "/products/apis"
 title: "APIs"
-date: "2019-04-25"
-author: "dt"
 seo:
     title: "APIs"
-    keywords: "data translator renci"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod pariatur labore iste."
 ---
 
 

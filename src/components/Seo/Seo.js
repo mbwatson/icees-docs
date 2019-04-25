@@ -11,7 +11,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           siteMetadata {
             title
             description
-            author
+            keywords
           }
         }
       }
@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const metaKeywords = keywords || site.siteMetadata.keywords
 
   return (
     <Helmet
@@ -61,14 +62,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
       ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
+        .concat({
+          name: `keywords`,
+          content: keywords || metaKeywords,
+        })
         .concat(meta)}
     />
   )
@@ -79,14 +76,15 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   description: ``,
+  author: ``,
 }
 
 SEO.propTypes = {
+  title: PropTypes.string.isRequired,
   description: PropTypes.string,
+  keywords: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
 }
 
 export default SEO
