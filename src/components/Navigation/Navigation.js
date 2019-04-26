@@ -1,15 +1,16 @@
-import React from 'react'
-import PropTypes from "prop-types"
+import React, { Fragment } from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import './Navigation.scss'
 import { StaticQuery, Link } from 'gatsby'
 
-export const MenuItem = ({ to, text, children }) => {
+export const MenuItem = ({ to, text, level, children }) => {
     return (
         <Link
             to={ to }
             className="menuItem"
             activeClassName="active"
+            style={ level ? { paddingLeft: `calc(1rem + 10px * ${ level })` } : null }
         >
             { text }
             { children }
@@ -17,17 +18,10 @@ export const MenuItem = ({ to, text, children }) => {
     )
 }
 
-export const SubmenuItem = ({ to, text, children }) => {
-    return (
-        <Link
-            to={ to }
-            className="submenuItem"
-            activeClassName="active"
-         >
-            { text }
-            { children }
-        </Link>
-    )
+MenuItem.propTypes = {
+    to: PropTypes.string.isRequired, // location to which the link routes 
+    text: PropTypes.string.isRequired, // text displayed for clicking
+    level: PropTypes.number, // indent amount
 }
 
 export const NavigationSubmenu = styled.ul`
@@ -35,11 +29,6 @@ export const NavigationSubmenu = styled.ul`
     left: 0;
     top: 100%;
 `
-
-MenuItem.propTypes = {
-    to: PropTypes.node.isRequired,
-    text: PropTypes.node.isRequired,
-}
 
 export const NavigationMenu = () => (
     <StaticQuery
@@ -69,14 +58,14 @@ export const NavigationMenu = () => (
                                 item => {
                                     if (item.submenu) {
                                         return (
-                                            <>
-                                                <MenuItem key={ item.path } to={ item.path } text={ item.text } />
+                                            <Fragment key={ item.path }>
+                                                <MenuItem to={ item.path } text={ item.text } level={ 0 } />
                                                 {
                                                     item.submenu.map(
-                                                        subitem => <SubmenuItem key={ subitem.path } to={ subitem.path } text={ subitem.text } />
+                                                        subitem => <MenuItem key={ subitem.path } to={ subitem.path } text={ subitem.text } level={ 1 }/>
                                                     )
                                                 }
-                                            </>
+                                            </Fragment>
                                         )
                                     } else {
                                         return <MenuItem key={ item.path } to={ item.path } text={ item.text } />
@@ -90,13 +79,4 @@ export const NavigationMenu = () => (
         }
     />
 )
-
-// export const NavigationMenu = () => {
-//     return (
-//         <nav className="NavigationMenu">
-//             <MenuItem to="/" text="Home" />
-//             <MenuItem to="/page-2" text="Two" />
-//         </nav>
-//     )
-// }
 

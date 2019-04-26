@@ -1,20 +1,34 @@
 .site {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
 }
 
 .sidebar {
-    min-width: 180px;
-    background-color: #eee;
-    border-right: 1px solid #222;
-    padding-top: 100px;
+    display: block;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding-top: 1rem;
+    transition: transform 250ms;
+    width: 180px;
+    &.collapsed {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        transform: translateX(-100%);
+        &.open {
+            transform: translateX(0);
+        }
+    }
 }
 
 main {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    position: relative;
 }
 
 .container {
@@ -24,13 +38,12 @@ main {
 
 header {
     background-color: #333;
-    margin-bottom: 1rem;
 }
 
 .content {
-    maxWidth: 960px;
+    max-width: 960px;
     padding: 0px 1.0875rem 1.45rem;
-    padding-top: 0;
+    margin-top: 1rem;
     flex: 1;
 }
 

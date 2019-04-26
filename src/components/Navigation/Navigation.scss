@@ -4,20 +4,14 @@
     flex-direction: column;
 }
 
-.menuItem,
-.submenuItem {
+.menuItem {
     color: #444;
     text-decoration: none;
     padding: 0.25rem 1rem;
     transition: background-color 250ms;
 }
 
-.submenuItem {
-    padding: 0.25rem 2rem;
-}
-
-.menuItem:hover,
-.submenuItem:hover {
+.menuItem:hover {
     background-color: #ddd;
 }
 
