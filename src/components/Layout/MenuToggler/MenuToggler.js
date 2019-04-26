@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 const MenuToggler = styled.button`
-    display: ${ props => props.visible ? 'block' : 'none' };
     background-color: var(--color-accent);
     position: absolute;
     cursor: pointer;
@@ -13,10 +12,11 @@ const MenuToggler = styled.button`
     border: none;
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 1.75rem;
     border-radius: 50%;
     z-index: 2;
-    overflow: hidden;
+    transform: ${ props => props.visible ? 'translateX(0)' : 'translateX(200%)' };
+    transition: transform 500ms;
     &::before, &::after {
         transform: translateX(-50%);
         transition: opacity 500ms, transform 250ms;
