@@ -14,7 +14,7 @@ module.exports = {
                 submenu: [
                     { text: "Program", path: "/about/program", },
                     { text: "Gamma", path: "/about/gamma", },
-                ]
+                    { text: "Green", path: "/about/green", },                ]
             },
             {
                 text: "Use Cases",
