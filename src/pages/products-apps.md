@@ -1,15 +1,13 @@
 ---
 path: "/products/apps"
-title: "Appss"
+title: "Apps"
 seo:
     title: "Apps"
     keywords: ""
     description: ""
 ---
 
+The Translator community has developed a number of applications that all use the same underlying architecture of semantically integrated biomedical knowledge. But each is tailored to different communites by virtue of the query systems, data sets, and filtering capabilities they emphasize. This page lists the main applications with links to further reading.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque facere quasi.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptate quia consectetur rerum quas eius officia dignissimos est quod quis fuga, praesentium aliquid ullam aperiam id fugiat, neque itaque sit dolores fugit debitis dolore dicta enim illo! Assumenda quam ad itaque. Quos consequatur ab vitae illum porro modi mollitia. Ullam sed vel aliquid officiis quaerat tenetur autem, quis dolorem cum quos ducimus provident voluptatibus quam nostrum dolor unde necessitatibus consequatur earum cumque dignissimos iste molestiae eos totam. Nulla corporis assumenda quisquam, rem facilis aut quam ut ratione necessitatibus explicabo pariatur maiores fugit natus saepe soluta obcaecati laboriosam, itaque, molestiae veniam.
+[ROBOKOP](/products-apps-robokop) <br/>
+[TranQL](/tranql) <br/>

@@ -4,17 +4,19 @@ module.exports = {
         description: `Data Translator`,
         keywords: `data translator, renci`,
         menuLinks: [
+        /*
             {
                 text: "Home",
                 path: "/",
-            },
+            }, */
             {
                 text: "About",
-                path: "/about",
+                path: "/about", /*
                 submenu: [
                     { text: "Program", path: "/about/program", },
                     { text: "Gamma", path: "/about/gamma", },
-                    { text: "Green", path: "/about/green", },                ]
+                    { text: "Green", path: "/about/green", },               ]
+                                */
             },
             {
                 text: "Use Cases",
@@ -28,7 +30,12 @@ module.exports = {
                 text: "Products",
                 path: "/products",
                 submenu: [
-                    { text: "Apps", path: "/products/apps", },
+                  { text: "Apps", path: "/products/apps",
+                    submenu: [
+                      { text: "ROBOKOP", path: "/about/apps/robokop", },
+                      { text: "ICEES", path: "/about/apps/icees", },
+                      { text: "TranQL", path: "/about/apps/tranql", },
+                    ]},
                     { text: "APIs", path: "/products/apis", },
                     { text: "Data", path: "/products/data", },
                 ]
