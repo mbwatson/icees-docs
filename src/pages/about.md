@@ -15,5 +15,5 @@ The Translator is not a single application. Rather, it is a platform providing a
 
 ![Translator Architecture Overview](/data-translator/images/translator-platform-architecture.png)
 
-[Ashtma : Chemical to Phenotype Analysis](/use-cases-clinical) <br/>
+[Ashtma : Chemical to Phenotype Analysis](/use-cases/clinical) <br/>
 Here we describe the Workflow 5 science question and provide links to more information on the [tools](/tranql) and [methodology](/tranql-workflow-5)<br/>
