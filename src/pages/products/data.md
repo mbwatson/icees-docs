@@ -5,6 +5,8 @@ seo:
     title: "Data"
     keywords: ""
     description: ""
+template: "product"
+image: "./data.jpg"
 ---
 
 

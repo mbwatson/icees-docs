@@ -13,7 +13,7 @@ This site presents representative examples, the tools on the Translator platform
 
 The Translator is not a single application. Rather, it is a platform providing a framework of methods and patterns for incorporating data sources, approaches to the semantic integration of data from multiple sources, models for reasoning over that data, and client interfaces appropriate to a variety of user communities. It also instantiates a technical architecture including interfaces and standards promoting extensibility and scalability.
 
-![Translator Architecture Overview](/data-translator/images/translator-platform-architecture.png)
+![Translator Architecture Overview](./translator-platform-architecture.jpg)
 
 [Ashtma : Chemical to Phenotype Analysis](/use-cases/clinical) <br/>
 Here we describe the Workflow 5 science question and provide links to more information on the [tools](/tranql) and [methodology](/tranql-workflow-5)<br/>

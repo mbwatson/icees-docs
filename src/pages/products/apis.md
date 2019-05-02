@@ -5,6 +5,8 @@ seo:
     title: "APIs"
     keywords: ""
     description: ""
+template: "product"
+image: "./apis.jpg"
 ---
 
 

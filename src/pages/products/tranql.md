@@ -5,6 +5,8 @@ seo:
     title: "TranQL"
     keywords: ""
     description: ""
+template: "product"
+image: "./tranql.jpg"
 ---
 
 TranQL supports the interactive query of Translator reasoners. Its simple user interface accepts a query in the TranQL query language. Running the query interacts with one or more reasoners to build and visualize a resulting knowledge graph.
