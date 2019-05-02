@@ -6,7 +6,7 @@ seo:
     keywords: ""
     description: ""
 template: "product"
-image: "./data.jpg"
+image: "data.jpg"
 ---
 
 
