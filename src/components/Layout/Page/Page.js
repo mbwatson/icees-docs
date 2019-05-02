@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
 import classnames from 'classnames'
 import { Toolbar } from '../../Toolbar/Toolbar'
 import MenuToggler from '../MenuToggler/MenuToggler'
 import { NavigationMenu } from '../../Navigation/Navigation'
 import Brand from '../../Brand/Brand'
 import useWindowWidth from '../../../hooks/useWindowWidth'
+import Scroller from '../Scroller/Scroller'
 import "./Page.scss"
 
 const windowThreshold = 600
 
 const Layout = ({ children }) => {
     const windowWidth = useWindowWidth()
+    const headerElement = useRef(null)
+    const [scrollThreshold, setScrollThreshold] = useState(0)
     const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
@@ -28,9 +30,13 @@ const Layout = ({ children }) => {
         }
     }, [windowWidth])
 
+    useEffect(() => {
+        setScrollThreshold(headerElement.current.offsetHeight)
+    }, [headerElement])
+
     return (
         <div className="site">
-            <header>
+            <header ref={ headerElement }>
                 <div className="container">
                     <Toolbar>
                         <Brand />
@@ -39,8 +45,18 @@ const Layout = ({ children }) => {
             </header>
             <main>
                 <MenuToggler open={ sidebarOpen } visible={ sidebarCollapsed } onClick={ handleSidebarToggle } />
-                <aside className={ classnames('sidebar', sidebarCollapsed ? 'collapsed' : null, sidebarOpen ? 'open' : null) }>
-                    <NavigationMenu />
+                <aside
+                    className={
+                        classnames(
+                            'sidebar',
+                            sidebarCollapsed ? 'collapsed' : null,
+                            sidebarOpen ? 'open' : null
+                        )
+                    }
+                >
+                    <Scroller scrollThreshold={ scrollThreshold }>
+                        <NavigationMenu />
+                    </Scroller>
                 </aside>
                 <div className="content">
                     <div className="container">

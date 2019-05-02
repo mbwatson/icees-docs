@@ -7,4 +7,5 @@
 // You can delete this file if you're not using it
 
 import './src/styles/baseline.css'
+import './src/styles/tweaks.css'
 import './src/styles/globals.css'

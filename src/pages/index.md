@@ -5,6 +5,7 @@ seo:
     title: "Home"
     keywords: ""
     description: ""
+template: "default"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nostrum, impedit adipisci.

@@ -4,45 +4,31 @@ module.exports = {
         description: `Data Translator`,
         keywords: `data translator, renci`,
         menuLinks: [
-        /*
             {
-                text: "Home",
-                path: "/",
-            }, */
-            {
-                text: "About",
-                path: "/about", /*
-                submenu: [
-                    { text: "Program", path: "/about/program", },
-                    { text: "Gamma", path: "/about/gamma", },
-                    { text: "Green", path: "/about/green", },               ]
-                                */
+                text: "About", path: "/about",
             },
             {
-                text: "Use Cases",
-                path: "/use-cases",
+                text: "Use Cases", path: "/use-cases",
+            },
+            {
+                text: "Apps", path: "/apps",
                 submenu: [
-                    { text: "Genetic", path: "/use-cases/genetic", },
-                    { text: "Clinical", path: "/use-cases/clinical", },
+                    { text: "ROBOKOP", path: "/apps/robokop", },
+                    { text: "ICEES", path: "/apps/icees", },
+                    { text: "TranQL", path: "/apps/tranql", },
                 ]
             },
             {
-                text: "Products",
-                path: "/products",
-                submenu: [
-                  { text: "Apps", path: "/products/apps",
-                    submenu: [
-                      { text: "ROBOKOP", path: "/about/apps/robokop", },
-                      { text: "ICEES", path: "/about/apps/icees", },
-                      { text: "TranQL", path: "/about/apps/tranql", },
-                    ]},
-                    { text: "APIs", path: "/products/apis", },
-                    { text: "Data", path: "/products/data", },
-                ]
+                text: "APIs", path: "/apis",
             },
             {
-                text: "Publications",
-                path: "/publications",
+                text: "Data", path: "/data",
+            },
+            {
+                text: "Publications", path: "/publications",
+            },
+            {
+                text: "Team Science", path: "/team-science",
             },
         ]
     },
@@ -75,9 +61,16 @@ module.exports = {
                             // It's important to specify the maxWidth (in pixels) of
                             // the content container as this plugin uses this as the
                             // base for generating different widths of each image.
-                            maxWidth: 590,
+                            maxWidth: 800,
                         },
                     },
+                    {
+                        resolve: `gatsby-remark-katex`,
+                        options: {
+                            // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+                            strict: `ignore`
+                        }
+                    }
                 ],
             },
           },

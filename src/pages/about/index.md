@@ -2,18 +2,15 @@
 path: "/about"
 title: "About"
 seo:
-    title: "About"
+    title: "About Data Translator"
     keywords: ""
     description: ""
 ---
 
-The NCATS Data Translator is a digital knowledge platform for the exploration of translational science questions. With the Translator, we are able to combine knowledge distributed across a large number of research databases to model answers to non-trivial biomedical queries. The Translator methodology allows these questions to be approached in far less time than a human user would take to accomplish a similar result.
+The National Center for Advancing Translational Sciences (NCATS) launched the Biomedical Data Translator ("Translator") program in October 2016 in an effort to overcome challenges in application of the myriad biomedical datasets that are available today for the greater public good. Those challenges include the compartmentalization of data across diseases and disciplines, disparate data types, a lack of semantic harmonization within and across datasets, an inability to discover and access datasets, insufficient documentation on datasets and the tools to use them, and numerous other challenges that hinder the use of "big data." These challenges are not unique to the biomedical field, but rather impact numerous fields, including business, finance, education, political science, social science, and others.
 
-This site presents representative examples, the tools on the Translator platform used to address them, and the results achieved. In each case, we start with a high level overview of the question in biomedical terms. The examples then provide additional levels of detail ranging from conceptual methodology through tool usage, and eventually, the constituent knowledge sources employed.
+The Translator program aims to provide a comprehensive, open solution to accelerate clinical and translational research and drive innovations in clinical care and drug discovery. Specifically, the program aims "to bridge the current symptom-based diagnosis of disease with research-based molecular and cellular characterizations through an informatics platform that enables interrogation of relationships across the full spectrum of data types, from disease names, clinical signs and symptoms, to organ and cell pathology, genomics, and drug effects" (Austin et al. 2019; _The Biomedical Data Translator Consortium 2019_a;b). While still in the feasibility phase, the Translator ‘system’ or platform of modular, interchangeable tools and services has demonstrated remarkable early success, as revealed by use cases that span the clinical and translational spectrum. Example use cases, and a description of the Translator services and tools used to generate them, are provided within this site. We focus on Translator capabilities and applications in which [RENCI](https://renci.org/) played a key role.
 
-The Translator is not a single application. Rather, it is a platform providing a framework of methods and patterns for incorporating data sources, approaches to the semantic integration of data from multiple sources, models for reasoning over that data, and client interfaces appropriate to a variety of user communities. It also instantiates a technical architecture including interfaces and standards promoting extensibility and scalability.
+![Data Translator Consortium](data-translator-consortium.png)[]()
 
-![Translator Architecture Overview](./translator-platform-architecture.jpg)
-
-[Ashtma : Chemical to Phenotype Analysis](/use-cases/clinical) <br/>
-Here we describe the Workflow 5 science question and provide links to more information on the [tools](/tranql) and [methodology](/tranql-workflow-5)<br/>
+**Funding Support:** OT3TR002026 [Blue], OT3TR002020 [Green], OT3TR002025 [Grey], OT3TR002019 [Orange], OT3TR002027 [Red], OT2TR002517 [Alpha], OT2TR002514 [Gamma], OT2TR002515 [IR], OT2TR002584 [UV], OT2TR002520 [X-Ray], UL1TR002489 [NC TraCS]

@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout/Page/Page"
 import SEO from "../components/Seo/Seo"
+import "katex/dist/katex.min.css"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
