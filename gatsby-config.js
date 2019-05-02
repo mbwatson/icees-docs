@@ -46,8 +46,10 @@ module.exports = {
             },
         ]
     },
+    pathPrefix: "/data-translator", // for github pages
     plugins: [
         `gatsby-plugin-sass`,
+        `gatsby-plugin-styled-components`,
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -82,5 +84,4 @@ module.exports = {
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
     ],
-    pathPrefix: "/data-translator", // for github pages
 }
