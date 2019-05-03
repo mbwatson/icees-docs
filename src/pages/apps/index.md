@@ -25,7 +25,7 @@ The [US Census Bureau ACS Socio-Environmental Exposures API](http://bdt-social.r
 
 Additional documentation for the 3 current Green Team Exposures APIs can be found here: https://github.com/lstillwe/datatranslator-exposure-apis/blob/master/DT_Exposure_APIs.md.
 
-[Chemotext](http://chemotext.mml.unc.edu/&sa=D) provides Medline/PubMed abstract co-occurrence of MeSH terms.
+[Chemotext](http://chemotext.mml.unc.edu/) provides Medline/PubMed abstract co-occurrence of MeSH terms.
 
 [OmniCorp](https://github.com/NCATS-Gamma/omnicorp&sa=D) provides an ontology-oriented evidence map. More specifically, OmniCorp annotates PubMed/Medline’s corpus of annotated abstracts with ontologies using Orange Team’s SciGraph. See https://github.com/NCATS-Gamma/omnicorp.
 
