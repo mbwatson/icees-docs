@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Data Translator`,
+        title: `Translator Program`,
+        subtitle: `Teams Green and Gamma`,
         description: `Data Translator`,
         keywords: `data translator, renci`,
         menuLinks: [

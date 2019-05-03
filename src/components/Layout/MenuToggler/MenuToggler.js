@@ -14,7 +14,7 @@ const MenuToggler = styled.button`
     right: 2rem;
     bottom: 1.75rem;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 3;
     transform: ${ props => props.visible ? 'translateX(0)' : 'translateX(200%)' };
     transition: transform 500ms;
     &::before, &::after {
