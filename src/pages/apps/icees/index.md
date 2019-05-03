@@ -17,10 +17,10 @@ For example, [RENCI](https://renci.org/) and colleagues at the North Carolina Tr
 
 Note that the exposures data are accessible independent of ICEES via open APIs: US EPA CMAQ Airborne Exposures API; US DOT Roadway Exposures API; and US Census Bureau ACS API. Each of these APIs/services contains documentation on their content and user access, including inputs and outputs. The data have been used by investigators at NIEHS for integrations with survey data as part of their Environmental Polymorphisms Registry.
 
-## ICEES User Manual
+## User Manual
 
 _Coming soon_
 
-## ICEES Technical Manual
+## Technical Manual
 
 _Coming soon_
