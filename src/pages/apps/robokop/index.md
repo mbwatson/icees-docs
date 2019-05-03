@@ -55,6 +55,3 @@ is shown below.
 
 _Coming soon_
 
-## Technical Manual
-
-_Coming soon_

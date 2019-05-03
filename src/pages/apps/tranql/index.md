@@ -45,6 +45,3 @@ Knowledge Source Selector: The Knowledge Sources settings tab displays all Knowl
 
 ![Grid depicting TranQL in relation to Translator](tranql-relation-to-translator.png)[]()
 
-## Technical Manual
-
-_Coming soon_

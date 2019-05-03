@@ -21,6 +21,3 @@ Note that the exposures data are accessible independent of ICEES via open APIs: 
 
 _Coming soon_
 
-## Technical Manual
-
-_Coming soon_
