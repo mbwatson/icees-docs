@@ -1,10 +1,11 @@
 ---
-path: "/about"
-title: "About"
+path: "/"
+title: "What is Data Translator?"
 seo:
     title: "About Data Translator"
     keywords: ""
     description: ""
+template: "default"
 ---
 
 The National Center for Advancing Translational Sciences (NCATS) launched the Biomedical Data Translator ("Translator") program in October 2016 in an effort to overcome challenges in application of the myriad biomedical datasets that are available today for the greater public good. Those challenges include the compartmentalization of data across diseases and disciplines, disparate data types, a lack of semantic harmonization within and across datasets, an inability to discover and access datasets, insufficient documentation on datasets and the tools to use them, and numerous other challenges that hinder the use of "big data." These challenges are not unique to the biomedical field, but rather impact numerous fields, including business, finance, education, political science, social science, and others.

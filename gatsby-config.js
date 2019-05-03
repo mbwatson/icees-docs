@@ -5,7 +5,7 @@ module.exports = {
         keywords: `data translator, renci`,
         menuLinks: [
             {
-                text: "About", path: "/about",
+                text: "About", path: "/",
             },
             {
                 text: "Use Cases", path: "/use-cases",
