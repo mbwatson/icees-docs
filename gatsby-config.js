@@ -22,9 +22,6 @@ module.exports = {
                 text: "APIs", path: "/apis",
             },
             {
-                text: "Data", path: "/data",
-            },
-            {
                 text: "Publications", path: "/publications",
             },
             {
