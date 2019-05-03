@@ -29,4 +29,4 @@ Additional documentation for the 3 current Green Team Exposures APIs can be foun
 
 [OmniCorp](https://github.com/NCATS-Gamma/omnicorp&sa=D) provides an ontology-oriented evidence map. More specifically, OmniCorp annotates PubMed/Medline’s corpus of annotated abstracts with ontologies using Orange Team’s SciGraph. See https://github.com/NCATS-Gamma/omnicorp.
 
-[BioNames](https://bionames.renci.org/apidocs/) provides a [Biolink](https://github.com/biolink/-based lookup services to retrieve names from entity IDs or entity IDs from natural language names.
+[BioNames](https://bionames.renci.org/apidocs/) provides a [Biolink](https://github.com/biolink/)-based lookup services to retrieve names from entity IDs or entity IDs from natural language names.
