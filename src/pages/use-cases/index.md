@@ -38,6 +38,8 @@ Translator team members used [ROBOKOP](/apps/robokop) to generate AOPs for each 
 
 [ROBOKOP](/apps/robokop) identified three potential gene targets that might explain the adverse effects of the three solvents (CAT, IFN-gamma, TNF); one (CAT) is shared by both acetone-colitis and dichlorobenzene-colitis. A subsequent evaluation of Chemotext and the PubMed citations supporting these relationships provided validity and suggested plausible biological pathways and processes that might explain the unexpected clinical findings. Study investigators now plan to validate the findings by conducting a more rigorous retrospective analysis of their study data, including a genetic analysis targeted at the genes identified by [ROBOKOP](/apps/robokop).
 
+![Blurry screenshot depicting ROBOKOP-identified gene targets to explain solvent adverse reactions](cat-ifn-gamma-tnf.png)[]()
+
 _Translator-enabled insights into AOPs!_
 
 ## Open and Integrable Clinical Data
