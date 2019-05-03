@@ -18,7 +18,9 @@ The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (re
 
 ROBOKOP can respond to arbitrary graph queries across biomedical topics. Of specific relevance to the proposed work, ROBOKOP is being used to explore a variety of COPs and AOPs. [Aside: ROBOKOP’s ability to generate comprehensive COPs using a KG-based system was one of several criteria for the Translator award. Of note, this capability was developed and a prototype was released in less than six months.] For example, ROBOKOP was used to generate a COP designed to investigate the MOA of nifedipine in the treatment of cardiovascular disease. This question was posed to ROBOKOP as a graph query finding a linear path starting at nifedipine and ending at cardiovascular disease, and traversing a specified set of node types in between:
 
-nifedipine -> gene -> *biological process or activity -> *phenotypic feature -> cardiovascular disease.
+<p style="text-align: center;">
+    nifedipine ⇨ gene ⇨ *biological process or activity ⇨ *phenotypic feature ⇨ cardiovascular disease.
+</p>
 
 The stars indicate that for these entities, the path is allowed to branch, so that, e.g., multiple phenotypes may be involved.
 
