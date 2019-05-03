@@ -111,17 +111,19 @@ Below is a portion of this menu definition, which illustrates the expected forma
 
 ```javascript
 menuLinks: [
-            {
-                text: "Use Cases", path: "/use-cases",
-            },
-            {
-                text: "Apps", path: "/apps",
-                submenu: [
-                    { text: "ROBOKOP", path: "/apps/robokop", },
-                    { text: "ICEES", path: "/apps/icees", },
-                    { text: "TranQL", path: "/apps/tranql", },
-                ]
-            },
+    {
+        text: "Use Cases",
+        path: "/use-cases",
+    },
+    {
+        text: "Apps",
+        path: "/apps",
+        submenu: [
+            { text: "ROBOKOP", path: "/apps/robokop", },
+            { text: "ICEES", path: "/apps/icees", },
+            { text: "TranQL", path: "/apps/tranql", },
+        ]
+    },
     // ...
 ],
 ```
