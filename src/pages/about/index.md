@@ -1,8 +1,8 @@
 ---
 path: "/"
-title: "What is Data Translator?"
+title: "What is Translator?"
 seo:
-    title: "About Data Translator"
+    title: "About the Translator Program"
     keywords: ""
     description: ""
 template: "default"
