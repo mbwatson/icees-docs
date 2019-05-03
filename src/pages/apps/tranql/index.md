@@ -11,6 +11,8 @@ seo:
 
 [TranQL](https://tranql.renci.org/) (Translator Query Language) was recently developed by [RENCI](https://renci.org/) as a new query language for expressing graph-oriented queries over the common Translator Knowledge Graph Standard API presented by [ROBOKOP](/apps/robokop), [ICEES](/apps/icees), and other Translator “Reasoners”. TranQL offers a simple query and visualization interface to federated knowledge networks, with syntax that blends elements of relational and graph semantics to express a graph query and enable joins across Translator Reasoners. A simple, interactive user interface accepts a query in the TranQL query language, executes the query across one or more Reasoners, and visualizes the resulting KG. An example of a TranQL query and resultant KG is shown below. Here, TranQL was used to join [ICEES](/apps/icees) and [ROBOKOP](/apps/robokop) and explore relationships between patients with asthma who are vs are not responsive to treatment (as defined by emergency department or inpatient visits for respiratory issues), their chemical exposures, and the downstream gene targets, biological processes, and phenotypic features associated with those exposures. This is a query that asks: for patients in [ICEES](/apps/icees) with asthma-like conditions who are vs are not responsive to treatment (as defined by ED/inpatient visits for respiratory issues), what are their chemical exposures and what are the gene targets, biological processes, and phenotypic features associated with those chemical exposures. Highlighted is an example of one such phenotypic feature, namely, abnormal glucose homeostasis. Note that the first part the workflow invoke [ICEES](/apps/icees), whereas the second part invokes [ROBOKOP](/apps/robokop). TranQL is NOT specific to [ICEES](/apps/icees) and [ROBOKOP](/apps/robokop), however, but rather can serve as a bridge across Translator Reasoners to provide workflow automation and interactive visualization of output.
 
+![Screenshot depicting interactive graph visualization](tranql-interactive-output.png)[]()
+
 As a brand new tool, TranQL is only now being implemented and evaluated in driving use cases such as the one described above. However, we expect this tool to have broad applicability across the Translator program, including application across other open Translator Clinical Knowledge Sources (e.g., [Columbia Open Health Data](http://smart-api.info/ui/9fbeaeabd19b334fa0f1932aa111bf35), [Clinical Profiles](https://model.clinicalprofiles.org/clinicalprofile.html)).
 
 ## User Manual
@@ -27,7 +29,7 @@ TranQL supports the interactive query of Translator “Reasoners”. Its simple 
 
 **Filters:** The final component of the where clause is a regular expression-based filter. The “!=~” operator essentially means “does not match”. In this context, by applying it to the drug_exposure element, we’re instructing the query to eliminate any drug exposure results whose identifiers contain the specified components. We’re doing this because [ICEES](/apps/icees) returns many results with identifiers that can’t be processed by downstream services. To accelerate the query, we skip handling them.
 
-![Screenshot depicting the use of a where clause in TranQL](using-tranql-with-where-clause)[]()
+![Screenshot depicting the use of a where clause in TranQL](using-tranql-with-where-clause.png)[]()
 
 **General Settings:** The application’s settings can be used to switch between 3D and 2D visualization modes. Whether the graph if colorized is also optional. Knowledge Graphs are cached at the client. This means that running a successful query a second time will load results already retrieved by the first execution from the client machine’s disk. Settings can be used to clear the entire application cache for all queries. This will result in new service invocations when a query is run. Alternatively, the cache can be bypassed entirely by disabling it using the checkbox in the general settings dialog.
 
@@ -39,7 +41,7 @@ TranQL supports the interactive query of Translator “Reasoners”. Its simple 
 
 Knowledge Source Selector: The Knowledge Sources settings tab displays all Knowledge Sources that were used to generate the current answer set. Deselecting a Knowledge Source deletes all edges from the graph that originated with that source.
 
-![Screenshot depicting TranQL Knowledge Sources settings](tranql-settings-knowldge-sources.png)[]()
+![Screenshot depicting TranQL Knowledge Sources settings](tranql-settings-knowledge-sources.png)[]()
 
 **TranQL in relation to Translator**
 
