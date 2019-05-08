@@ -21,4 +21,4 @@ Through the Translator, DP was able to successfully use [ICEES](/apps/icees) to 
 
 ![Screenshot depicting [ICEES](/apps/icees) response describing relationships between severe asthma and other conditions](icees-asthma.png)
 
-_Translator-enabled open clinical research!_
+_**Translator-enabled open clinical research!**_
