@@ -9,6 +9,8 @@ seo:
 
 URL: http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values
 
+##Overview
+
 This API returns data from the US Census Bureau American Community Survey (ACS) for a given spatial location of interest.
 
 The API returns estimated values for socio-economic variables and related variables for small geographic areas that may act as indirect indicators of relevant health behaviors and outcomes. The data are collected by the US Census Bureau and are publicly available.
