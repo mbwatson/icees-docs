@@ -17,6 +17,7 @@ module.exports = {
                     { text: "ROBOKOP", path: "/apps/robokop", },
                     { text: "ICEES", path: "/apps/icees", },
                     { text: "TranQL", path: "/apps/tranql", },
+                    { text: "Exposures", path: "/apps/exposures", },
                 ]
             },
             {
