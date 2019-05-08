@@ -10,6 +10,13 @@ module.exports = {
             },
             {
                 text: "Use Cases", path: "/use-cases",
+                submenu: [
+                    { text: 'COP Insights', path: '/use-cases/cop-insights' },
+                    { text: 'AOP Insights', path: '/use-cases/aop-insights' },
+                    { text: 'Open Clinical Research', path: '/use-cases/open-clinical-research' },
+                    { text: 'Serendipity', path: '/use-cases/serendipity' },
+                    { text: 'Drug Discovery', path: '/use-cases/drug-discovery' },
+                ]
             },
             {
                 text: "Apps", path: "/apps",
@@ -17,7 +24,9 @@ module.exports = {
                     { text: "ROBOKOP", path: "/apps/robokop", },
                     { text: "ICEES", path: "/apps/icees", },
                     { text: "TranQL", path: "/apps/tranql", },
-                    { text: "Exposures", path: "/apps/exposures", },
+                    { text: "Roadway Service", path: "/apps/roadway", },
+                    { text: "CMAQ Service", path: "/apps/cmaq", },
+                    { text: "ACS Service", path: "/apps/acs", },
                 ]
             },
             {

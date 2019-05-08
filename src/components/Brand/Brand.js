@@ -27,7 +27,6 @@ const Subtitle = styled.div`
 
 export default () => {
     const windowWidth = useWindowWidth()
-    console.log(windowWidth)
 
     return (
         <StaticQuery

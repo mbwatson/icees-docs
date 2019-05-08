@@ -12,7 +12,7 @@ seo:
 
 The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (relationships).  A publicly available version of the database can be accessed at http://robokopkg.renci.org. A simplified version of the KG schema is shown below. An edge connecting two entities means that one or more data sources connecting entities of those types has been integrated into the ROBOKOP KG.
 
-![Graph depicting the KG schema](kg-schema.png)[]()
+![Graph depicting the KG schema](kg-schema.png)
 
 ### ROBOKOP Queries for COPs
 

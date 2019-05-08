@@ -70,15 +70,22 @@ footer {
     font-size: 90%;
 }
 
-.content a,
+main a,
 footer a {
     color: var(--color-accent);
     border-bottom: 1px solid transparent;
     transition: border-bottom 250ms;
 }
 
-.content a:hover,
+main a:hover,
 footer a:hover {
     border-bottom: 1px solid var(--color-accent);
+}
+
+.menu a, main a[class="gatsby-resp-image-link"] {
+    border-bottom: 0;
+    &:hover {
+        border-bottom: 0;
+    }
 }
 

@@ -22,6 +22,6 @@ export default props => {
 }
 
 Scroller.propTypes = {
-    threshold: PropTypes.number.isRequired,
+    scrollThreshold: PropTypes.number.isRequired,
     children: PropTypes.node.isRequired,
 }
