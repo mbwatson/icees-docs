@@ -9,7 +9,7 @@ seo:
 
 *Green and Gamma Team members are listed in bold font.
 
-**Ahalt SC**, Chute CG, **Fecho K**, Glusman G, Hadlock J, Solbrig H, Overby-Taylor C, **Pfaff E**, Ta C, Tatonetti N, Weng C,* and The NCATS Biomedical Data Translator Consortium. Clinical data: sources and types, regulatory constraints, applications. Clin Transl Sci, in press. [doi:10.1111/cts.12638](http://doi.org/10.1111/cts.12638). *Authors are listed alphabetically. [K. Fecho, lead author]
+**Ahalt SC**, Chute CG, **Fecho K**, Glusman G, Hadlock J, Solbrig H, Overby-Taylor C, **Pfaff E**, Ta C, Tatonetti N, Weng C,* and The NCATS Biomedical Data Translator Consortium. Clinical data: sources and types, regulatory constraints, applications. Clin Transl Sci, in press. [doi:10.1111/cts.12638](http://doi.org/10.1111/cts.12638). *Authors are listed alphabetically. [**K. Fecho**, lead author]
 
 
 Austin CP, Colvis CM, Southall NT. Deconstructing the translational tower of babel. Clin Transl Sci 2019;12(2):85. [doi:10.1111/cts.12595](https://doi.org/10.1111/cts.12595). https://www.ncbi.nlm.nih.gov/pubmed/30412342.
@@ -19,6 +19,9 @@ Austin CP, Colvis CM, Southall NT. Deconstructing the translational tower of bab
 
 
 **Fecho K**, **Pfaff E**, **Xu H**, **Champion J**, **Cox S**, **Stillwell L**, **Bizon C**, **Peden D**, **Krishnamurthy A**, **Tropsha A**, **Ahalt SC**. A novel approach for exposing and sharing clinical data: the Translator Integrated Clinical and Environmental Exposures Service. JAMIA, in press. [doi:10.1093/jamia/ocz042](https://doi.org/10.1093/jamia/ocz042).
+
+
+**Morton K**, **Wang P**, **Bizon C**, **Cox S**, **Balhoff**, **Kebede Y**, **Fecho K**, **Tropsha A**. ROBOKOP: an abstraction layer and user interface for knowledge grpahs to support question answering. Bioinformatics, submitted on May 7, 2019.
 
 
 **Pfaff E**, **Champion J**, Bradford R, Clark M, **Xu H**, **Fecho K**, **Krishnamurthy A**, **Cox S**, Chute CG, Taylor CO. Working toward a more common data model: CDM to FHIR conversion with CAMP FHIR. JAMIA, under review.
