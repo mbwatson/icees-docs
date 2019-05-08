@@ -9,6 +9,8 @@ seo:
 
 URL: http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values
 
+##Overview
+
 This API returns estimated measurements of airborne particulate exposures for a given time period and spatial location of interest.
 
 Estimates are derived from the US EPA CONUS estimates of air quality available at https://www.epa.gov/hesc/rsig-related-downloadable-data-files. These data sets provide 8-hour ozone daily maximums (in ppbV) and daily PM2.5 daily averages (in µg/m3). The US EPA provides estimates at the resolution of US Census tract centroids for the continental US. For a given location, the API returns the estimated exposure for the census tract the location occurs in.
