@@ -2,6 +2,10 @@
 
 This is the first draft of a site outline built with [Gatsby](https://www.gatsbyjs.org). Gatsby is a free and open source static site generator based on [React](https://reactjs.org). Sites built with Gatsby are modern and _fast_.
 
+## Prerequisites
+
+Git, Node, and Gatsby.
+
 ## Project Structure
 
 The portion of the project one mostly interacts with lives within the `src` directory. Its structure is shown below, and the directories described in this document are expanded to their state at the time of its writing.
@@ -174,7 +178,7 @@ $ npm run deploy
 
 ### Issues
 
-I've run into a few issues with building and deployment with Gatsby that seem to stem from an outdated cache. Running `$ gatsby clean` deletes the `.cache` and `public` directories, after which a new `gatsby build` or `npm run deploy` seems to instantiate a working build. 
+I've run into an issue with building and deploying with Gatsby that seems to stem from an out-of-sync cache. I've gotten into the habit of running `$ gatsby clean` (which deletes the `.cache` and `public` directories) before deploying, and I haven't run into this issue since. 
 
 ## About Gatsby
 
