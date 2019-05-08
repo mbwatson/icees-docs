@@ -24,4 +24,4 @@ Translator team members used [ROBOKOP](/apps/robokop) to generate a clinical out
 >
 > — Dr. JHB
 
-_Translator-enabled insights into COPs!_
+_**Translator-enabled insights into COPs!**_
