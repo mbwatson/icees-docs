@@ -9,6 +9,8 @@ seo:
 
 URL: http://bdt-proximity.renci.org:8080/roadway_proximity_api/v1/ui/#!/default/get_distance
 
+##Overview
+
 This API returns the distance in meters from a location of interest to the nearest roadway.
 
 Roadway data are derived from GIS shapefiles provided by the US Federal Highway Administration's Highway Performance Monitoring System (HPMS). See the HPMS Field Manual (https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/) for detailed explanation of methods and fields.
