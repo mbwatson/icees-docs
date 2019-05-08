@@ -20,4 +20,4 @@ feature. While exploring the answers, KF noticed something interesting: many of 
 >
 > — Dr. KF
 
-_Translator-enabled serendipity!_
+_**Translator-enabled serendipity!**_
