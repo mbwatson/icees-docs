@@ -22,4 +22,4 @@ Translator team members used [ROBOKOP](/apps/robokop) to generate AOPs for each 
 
 ![Blurry screenshot depicting ROBOKOP-identified gene targets to explain solvent adverse reactions](cat-ifn-gamma-tnf.png)
 
-_Translator-enabled insights into AOPs!_
+_**Translator-enabled insights into AOPs!**_
