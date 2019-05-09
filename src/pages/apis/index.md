@@ -45,9 +45,8 @@ ROBOKOP KG Analysis Tools
 - WF1 Mod3 [API](http://robokop.renci.org/api/simple/quick/template/wf1mod3) | [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/workflow1/module2/module/Workflow1Module3_ROBOKOP_examples.ipynb):  Given an input disease, find toxicants that may cause or exacerbate the disease, find genes that produce or retain the toxicant, and then find drugs that reduce the activity or amount of that gene.
 - WF1 Mod3a [API](http://robokop.renci.org/api/simple/quick/template/wf1mod3_v2) | [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/workflow1/module2/module/Workflow1Module3a_ROBOKOP_examples.ipynb):  Given an input disease, find toxicants that may cause or exacerbate the disease, find genes that degrade or remove the toxicant, and then find drugs that increase the activity or amount of that gene.
 - WF2 Mod1a [API](http://robokop.renci.org/api/simple/quick/template/wf2mod1a) |  [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/workflow2/module1/Workflow2Module1a_ROBOKOP_examples.ipynb): Given a disease, find genes associated with that disease, and then look for new genes that share many biological processes with the disease gene.  This uses ROBOKOP reasoning, rather than Jaccard similarity.
-- WF2 Mod1d
-- WF2 Mod2
-- WF4
-- WF4 Phenotype
-- WF5
-
+- WF2 Mod1d [API](http://robokop.renci.org/api/simple/quick/template/wf2mod1d) |  [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/workflow2/module1/Workflow2Module1d_ROBOKOP_examples.ipynb): Given a disease, find genes associated with that disease, and then look for new genes that share many chemicals with the disease gene.  This uses ROBOKOP reasoning, rather than Jaccard similarity.
+- WF2 Mod2 [API](http://robokop.renci.org/api/simple/quick/template/wf2mod2) | [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/workflow2/module1/Workflow2Module2_ROBOKOP_examples.ipynb): Given a chemical property and a disease, find chemicals with that property, and genes that interact with those chemicals that may be relevant to the disease.
+- WF4 [API](http://robokop.renci.org/api/simple/quick/template/wf4): Given a disease, find disease-related genes, then expand to new genes via a set of common processes, and then find chemicals that interact with these new genes.
+- WF4 Phenotype [API](http://robokop.renci.org/api/simple/quick/template/wf4_phenotype): Given a phenotype, find phenotype-related genes, then expand to new genes via a set of common processes, and then find chemicals that interact with these new genes.
+- WF5 [API](http://robokop.renci.org/api/simple/quick/template/wf5): Given a chemical, find related genes, processes that those genes perform, and phenotypes that are related to the processes.
