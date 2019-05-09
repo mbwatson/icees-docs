@@ -9,7 +9,7 @@ seo:
 
 ## Overview
 
-[**US Census Bureau ACS Exposures**](http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values)
+[**Socio-environmental Exposures API**](http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values)
 
 This API returns data from the US Census Bureau American Community Survey (ACS) for a given spatial location of interest.
 
@@ -37,7 +37,7 @@ The currently available variables are listed here:
 
 ## User Manual
 
-The screenshot below provides a textual overview of the Socio-environmental Service API.
+The screenshot below provides a textual overview of the Socio-environmental Exposures API.
 
 ![ACS_API](ACS_API.png)
 
