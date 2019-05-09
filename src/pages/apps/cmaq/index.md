@@ -7,9 +7,9 @@ seo:
     description: ""
 ---
 
-URL: http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values
-
 ##Overview
+
+[**US EPA CMAQ Exposures**](http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values)
 
 This API returns estimated measurements of airborne particulate exposures for a given time period and spatial location of interest.
 
