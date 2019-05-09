@@ -6,9 +6,9 @@ seo:
     keywords: ""
     description: ""
 ---
-##Overview
+## Overview
 
-[**US DOT Roadway Exposures**](http://bdt-proximity.renci.org:8080/roadway_proximity_api/v1/ui/#!/default/get_distance)
+[**Roadway Exposures API**](http://bdt-proximity.renci.org:8080/roadway_proximity_api/v1/ui/#!/default/get_distance)
 
 This API returns the distance in meters from a location of interest to the nearest roadway.
 
@@ -34,6 +34,12 @@ In some cases, roadway type, AADT, and speed are not available in the HPMS data 
 
 The API is currently restricted to calendar year 2016.
 
-![Screenshot of Roadway Exposures API in Swagger](roadway-swagger.png)
+## User Manual
 
-![Screenshot depicting details about the distance endpoint of the Roadway Exposures API](roadway-distance-endpoint.png)
+The screenshot below provides a textual overview of the Roadway Exposures API.
+
+![Roadway_API](Roadway_API.png)
+
+This screenshot provides default settings and example output from the API.
+
+![Roadway_API_DefaultSettings API](Roadway_API.png)
