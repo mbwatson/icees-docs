@@ -7,9 +7,9 @@ seo:
     description: ""
 ---
 
-##Overview
+## Overview
 
-[**US EPA CMAQ Exposures**](http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values)
+[**CMAQ Airborne Exposures API**](http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values)
 
 This API returns estimated measurements of airborne particulate exposures for a given time period and spatial location of interest.
 
@@ -26,6 +26,12 @@ The API currently provides the following exposure variables:
 
 Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, the Statue of Liberty in New York City is at latitude 40.689249 and longitude -74.044500.
 
-![Screenshot of CMAQ Exposures API in Swagger](cmaq-swagger.png)
+## User Manual
 
-![Screenshot depicting details about the values endpoint of the CMAQ Exposures API](cmaq-values-endpoint.png)
+The screenshot below provides a textual overview of the CMAQ Airborne Exposures API.
+
+![CMAQ_API](CMAQ_API.png)
+
+This screenshot provides default fields and example output from the API.
+
+![CMAQ_API_DefaultFields](CMAQ_API_DefaultFields.png)
