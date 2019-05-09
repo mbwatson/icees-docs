@@ -7,7 +7,7 @@ seo:
     description: ""
 ---
 
-##Overview
+##Overview##
 
 [**US Census Bureau ACS Exposures**](http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values)
 
@@ -35,6 +35,12 @@ The currently available variables are listed here:
 - EstPropPersons25PlusHighSchoolMax - estimated porportion of adults age 25 or higher with at most a high school degree
 - EstPropPersons5PlusNoEnglish - estimated proportion of people speaking a language other than English at home
 
-![Screenshot of Socio-environmental Exposures API in Swagger](acs-swagger.png)
+##User Manual##
 
-![Screenshot depicting details about the values endpoint of the Socio-environmental Exposures API](acs-values-endpoint.png)
+The screenshot below shows the textual overview provided on the API's Swagger endpoint.
+
+![ACS_API](ACS_API.png)
+
+This screenshot provides default settings and example API outpt.
+
+![ACS_API_DefaultFields](ACS_API_DefaultFields.png)
