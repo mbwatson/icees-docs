@@ -42,4 +42,4 @@ The screenshot below provides a textual overview of the Roadway Exposures API.
 
 This screenshot provides default settings and example output from the API.
 
-![Roadway_API_DefaultSettings API](Roadway_API.png)
+![Roadway_API_DefaultSettings API](Roadway_API_DefaultSettings.png)
