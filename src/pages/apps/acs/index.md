@@ -7,9 +7,9 @@ seo:
     description: ""
 ---
 
-URL: http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values
-
 ##Overview
+
+[**US Census Bureau ACS Exposures**](http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values)
 
 This API returns data from the US Census Bureau American Community Survey (ACS) for a given spatial location of interest.
 
