@@ -37,7 +37,7 @@ The currently available variables are listed here:
 
 ## User Manual
 
-The screenshot below shows the textual overview provided on the API's Swagger endpoint.
+The screenshot below provides a textual overview of the Socio-environmental Service API.
 
 ![ACS_API](ACS_API.png)
 
