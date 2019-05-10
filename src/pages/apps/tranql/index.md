@@ -121,7 +121,5 @@ Caching data at the client has gone through evolutionary phases including localS
 
 We use the Dexie.js library to interact with IndexedDB to store knowledge graphs. A knowledge graph can take a long time to build and transmit. So it's valuable to hold on to them for a while. The cache can be temporarily bypassed or entirely cleared from the general settings dialog.
 
-## Conclusion
-
 TranQL is in active development. The next phase will replace the prototype implementation of a KGS interface to ICEES with the new, production quality KGS ICEES API. The next step will be to make cross schema integration more robust, demonstrate integration with a third reasoner endpoint, and add automated tests for query planning and other recent features.
 
