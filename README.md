@@ -180,6 +180,8 @@ $ npm run deploy
 
 I've run into an issue with building and deploying with Gatsby that seems to stem from an out-of-sync cache. I've gotten into the habit of running `$ gatsby clean` (which deletes the `.cache` and `public` directories) before deploying, and I haven't run into this issue since. 
 
+This same issue may occur if, during development, there is an update to an image file for which Gatsby has already run its image processing. Just clean things out and try re run the build or develop command, e.g., `$ gatsby clean && gatsby develop`.
+
 ## About Gatsby
 
 Looking for more about Gatsby? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
