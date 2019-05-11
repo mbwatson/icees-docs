@@ -9,7 +9,7 @@ seo:
 
 [**TranQL**](http://tranql.renci.org)
 
-**Purpose:** TranQL is an interactive environment for the iterative exploration of federated knowledge graphs with semantically rich visualizations. It queries knowledge models from multiple Translator reasoners federeated into unified schemas. The user interface supports iteratively querying, caching, visualizing, modifying, and requerying data across the federation. Completed queries can be incorporated into software systems requiring parameterized automation of the Translator semantic network.
+TranQL is an interactive environment for the iterative exploration of federated knowledge graphs with semantically rich visualizations. It queries knowledge models from multiple Translator reasoners federeated into unified schemas. The user interface supports iteratively querying, caching, visualizing, modifying, and requerying data across the federation. Completed queries can be incorporated into software systems requiring parameterized automation of the Translator semantic network.
 
 ## Overview
 
@@ -59,7 +59,9 @@ Each query selects a graph made up of concepts and relationships between them. T
 
 ![Screenshot depicting TranQL Graph Structure settings](tranql-settings-graph-structure.png)[]()
 
-Knowledge Source Selector: The Knowledge Sources settings tab displays all Knowledge Sources that were used to generate the current answer set. Deselecting a Knowledge Source deletes all edges from the graph that originated with that source. Edges may contain more than one data source in the event that an edge originated from more than one place. If an edge contains any source that is deselected, it will not be rendered in the graph.
+**Knowledge Source Selector:**## Conclusion
+
+ The Knowledge Sources settings tab displays all Knowledge Sources that were used to generate the current answer set. Deselecting a Knowledge Source deletes all edges from the graph that originated with that source. Edges may contain more than one data source in the event that an edge originated from more than one place. If an edge contains any source that is deselected, it will not be rendered in the graph.
 
 ![Screenshot depicting TranQL Knowledge Sources settings](tranql-settings-knowledge-sources.png)[]()
 
