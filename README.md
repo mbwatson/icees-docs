@@ -209,13 +209,6 @@ $ node --version
 v10.15.1
 ```
 
-Sometimes you'll change or add an image and the gatsby development server wont immediately show it, even after reloading. Try this: First, stop the development server. Then
-```
-gatsby clean
-gatsby develop
-```
-This may pause a few seconds rebuilding images.
-
 
 
 
