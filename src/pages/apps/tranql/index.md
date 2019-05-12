@@ -95,6 +95,8 @@ where the first two layers are entities from the BioLink-Model and the third lev
 
 A TranQL schema links these to enable cross reasoner query planning. The configuration file for the first TranQL schema is [here](https://github.com/NCATS-Tangerine/tranql/blob/master/tranql/conf/schema.yaml).
 
+![TranQL architecture](tranql-architecture.png)[]()
+
 #### User Interface
 
 ##### Overview
