@@ -7,7 +7,7 @@ seo:
     description: ""
 ---
 
-## Translator as an Intuition Driver and Hypothesis Generator<a name="translator-as-a-intuition-driver"></a>
+## Translator as an Intuition Driver and Hypothesis Generator<a name="translator-as-a-intuition-driver: Ozone, Asthma, Autism?"></a>
 
 KF is a translational scientist seeking to understand the health consequences of airborne pollutant exposure. As part of this effort, she used [ICEES](/apps/icees) to identify a significant association between exposure to ozone and frequent emergency or inpatient visits for respiratory issues among a defined subset of patients with asthma-like conditions. KF then used [ROBOKOP](/apps/robokop) to explore the mechanistic underpinnings of this relationship. Specifically, she ran an AOP structured as follows:
 
