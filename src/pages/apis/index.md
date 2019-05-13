@@ -20,7 +20,7 @@ seo:
 - Synonymize http://robokop.renci.org:6010/api/synonymize The same entity may have many different names in different naming systems. The synonymize API takes an identifier, and returns all of the other identifiers by which that entity is known, as well as the identifier by which that entity is known in ROBOKOP. A notebook describing the use of the synonymize API is found at https://github.com/ncats/translator-workflows/blob/master/greengamma/general/Synonymize.ipynb  The synonymize service can also be accessed via the form-based user interface at: http://robokop.renci.org/simple/synonymize
 - Validate http://robokop.renci.org:7071/validate_message The validate service checks a message for compliance to the Reasoner API v0.9 spec.  It is one of many validation-related endpoints that are described at http://robokop.renci.org:7071/apidocs/
 - Transpiler : Transpiles a question graph in the Reasoner API spec into a cypher query and returns that query.
-- Bionames https://bionames.renci.org/ The bionames service takes human readable names and returns possible identifiers from a set of vocabularies. Apidocs for bionames can be found at https://bionames.renci.org/apidocs/
+- BioNames https://bionames.renci.org/ The BioNames service takes human readable names and returns possible identifiers from a set of vocabularies. Apidocs for BioNames can be found at https://bionames.renci.org/apidocs/
 - Onto https://onto.renci.org/ Onto is a set of services for searching and traversing a set of pre-loaded bio-ontologies including GO, MONDO, and HPO. The apidocs for onto can be located at  https://onto.renci.org/apidocs/
 ROBOKOP KG Analysis Tools
 - Enrichment http://robokop.renci.org/api/simple/enriched/ Performs GO-style enrichment on entities in the ROBOKOP KG.  Takes a list of entities of one type, and returns a list of entities that connect to the input more frequently than would be expected by chance. A notebook describing use of the enrichment service is at https://github.com/ncats/translator-workflows/blob/master/greengamma/general/Enrichment.ipynb and a form-based submission for the service is located at http://robokop.renci.org/simple/enriched
@@ -31,6 +31,8 @@ ROBOKOP KG Analysis Tools
 - OmniCorp http://stars-app.renci.org/pubmedgraph/sparql is an RDF graph associating ontology terms with pubmed ids.   This allows users to find articles related to particular terms, as well as to perform literature co-occurence calculations.
 - UberonGraph http://stars-app.renci.org/uberongraph/sparql is an RDF graph created by combining numerous community bio-ontologies, including GO, UBERON, CHEBI, RO, and others.  Reasoning is then applied to the integrated information to infer and materialize relationships between entities.
 - CTD https://ctdapi.renci.org is a [SmartBag]() enabled API allowing access to the [Comparative Toxicogenomics Database](http://ctdbase.org).  [SmartAPI Docs]().
+- Chemotext http://chemotext.mml.unc.edu/ provides Medline/PubMed abstract co-occurrence of MeSH terms.
+
 
 ## ROBOKOP Automated Workflows and Modules
 - COP Chemical to Disease [API](http://robokop.renci.org/api/simple/quick/template/cop_disease/) | [Notebook example](https://github.com/ncats/translator-workflows/blob/master/greengamma/examples/COP.ipynb): Construct a Clinical Outcome Pathway starting at a chemical and ending at a disease.
