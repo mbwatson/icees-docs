@@ -1,4 +1,6 @@
-**CAMP FHIR**
+### CAMP FHIR
+
+## Overview
 
 CAMP FHIR (Clinical Asset Mapping Program for FHIR) is a custom software application that was developed by Green Team, in collaboration with Orange Team, as part of the Translator project in an effort to facilitate the sharing of clinical data across the Translator Consortium.
 
@@ -20,7 +22,6 @@ Mapping with CAMP FHIR involves: (1) mapping each source variable to its corresp
 To date, CAMP FHIR has been used to transform data from the i2b2 and PCORnet CDMs, although it is designed to allow input from any source CDM.
 
 We have used CAMP FHIR to transform i2b2 data on patients with an asthma-like condition for subsequent integration with environmental exposures data using a second custom sofwate pipeline, FHIR PIT (FHIR Patient data Integration Tool). Data quality and integrity were validated against the origin point of the data, our enterprise clinical data warehouse, for calendar year 2010 on approximately 23,000 patients. Together, CAMP FHIR and FHIR PIT are being used to create integrated feature tables as part of Green Team's [Integrated Clinical and Environmental Exposures Service (ICEES)](the [Integrated Clinical and Environmental Exposures Service](https://github.com/ResearchSoftwareInstitute/data-translator/tree/master/src/pages/apps/icees).
-
 
 **Generalizability**
 We believe that the use of CAMP FHIR to harmonize clinical data will save institutional resources over the alternative of standing up new CDMs to support multi-institutional collaborations. Moreover, using FHIR as a CDM could support rarer data sharing opportunities, such as collaborations between academic medical centers and community hospitals, thus democratizing participation and access. Moreover, we anticipate adoption and use of CAMP FHIR to stimulate the vision of the Translator program, foster clinical and translational research at UNC and elsewhere, and promote the broader vision of NCATS, particularly with respect to the CTSAs.
