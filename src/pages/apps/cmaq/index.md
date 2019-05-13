@@ -24,7 +24,7 @@ The API currently provides the following exposure variables:
 - O3: provides estimated O3 concentration levels. Estimated values are for daily maximums in units of ppbV.
 - PM2.5: provides estimated pm2.5 concentration levels. Estimated values are for daily averages in units of µg/m3.
 
-Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, the Statue of Liberty in New York City is at latitude 40.689249 and longitude -74.044500.
+Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, Raleigh, North Carolina is at latitude 35.7796 and longitude -78.6382.
 
 ## User Manual
 
