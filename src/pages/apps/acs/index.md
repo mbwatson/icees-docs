@@ -35,6 +35,8 @@ The currently available variables are listed here:
 - EstPropPersons25PlusHighSchoolMax - estimated porportion of adults age 25 or higher with at most a high school degree
 - EstPropPersons5PlusNoEnglish - estimated proportion of people speaking a language other than English at home
 
+Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, Raleigh, North Carolina is at latitude 35.7796 and longitude -78.6382.
+
 ## User Manual
 
 The screenshot below provides a textual overview of the Socio-environmental Exposures API.
