@@ -14,7 +14,7 @@ seo:
 
 The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (relationships).  A publicly available version of the database can be accessed at http://robokopkg.renci.org. A simplified version of the KG schema is shown below. An edge connecting two entities means that one or more data sources connecting entities of those types has been integrated into the ROBOKOP KG.
 
-![Graph depicting the KG schema](kg-schema.png)
+![KG schema](kg-schema.png)
 
 ## User Manual
 
@@ -28,26 +28,25 @@ ROBOKOP can respond to arbitrary graph queries across biomedical topics. Of spec
 
 The stars indicate that for these entities, the path is allowed to branch, so that, e.g., multiple phenotypes may be involved.
 
-![Screenshot of response depicting multiple answers, representing different paths through the KG](kg-response.png)[]()
+![COP nifedipine to cardiovascular disease](kg-response.png)[]()
 
 As seen in the screenshot above, multiple answers, representing different paths through the KG are returned. These potential answers are scored and ranked through an algorithm that factors in the number of supporting PubMed publications, as well as indirect support provided by literature co-occurrence of all pairwise sets of terms in the path. The top answer for this COP is shown below.
 
-
-![Screenshot of graph depicting supporting PubMed publications](supporting-publications-graph.png)[]()
+![Subgraph for COP nifedipine to cardiovascular disease](supporting-publications-graph.png)[]()
 
 Users can interact with the graph and explore the supporting publications. In this case, ROBOKOP identified 37 PubMed articles as supporting evidence for the nifedipine -> CYP1A relationship in the first answer subgraph. (One additional article was provided from the underlying data source, in this case CTD.) Users can view the citations (the first one is shown below) and click on the button to the left of the reference to retrieve the full PubMed abstract.
 
-![Screenshot depicting relationship between gene node and chemical substance node given by a PubMed article](cyp1a1-interaction-with-nifedipine.png)[]()
+![Subgraph and supporting publications for nifedipine and the CYP1A1 gene](cyp1a1-interaction-with-nifedipine.png)[]()
 
 ### ROBOKOP Queries for AOPs
 
 Similarly, ROBOKOP can be used to generate AOPs. The example below shows an AOP for the negative effects of particulate matter on cardiovascular disease.
 
-![Screenshot depicting ROBOKOP-generated AOPs](robokop-generated-aops.png)[]()
+![AOP particulate matter to cardiovascular disease](robokop-generated-aops.png)[]()
 
 The top answer subgraph for this AOP is shown below. In this example, ROBOKOP established a relationship between particulate matter and the TNF gene, with 47 total supporting PubMed publications and predicates that include “increases secretion”, “increases expression”, and “affects response”. In this answer subgraph, the supporting publications were derived from CTD.
 
-![Screenshot of a subgraph that illustrates the relationship between particulate matter and the TNF gene with 47 supporting PubMed publications](particulate-matter-tnf-relationship.png)[]()
+![Subgraph and supporting publications for particulate matter and the TNF gene](particulate-matter-tnf-relationship.png)[]()
 
 The first citation for the relationship
 
@@ -55,7 +54,7 @@ The first citation for the relationship
 
 is shown below.
 
-![Screenshot of the subgraph illustrating the citation connecting nifedipine to th TNF gene](nifedipline-increases-secretion-tnf.png)[]()
+![First supporting publication for particulate matter and the TNF gene](particulate-matter-increases-secretion-tnf.png)[]()
 
 
 
