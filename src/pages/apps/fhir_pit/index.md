@@ -1,4 +1,6 @@
-**FHIR PIT**
+### FHIR PIT
+
+## Overview
 
 FHIR PIT (FHIR Patient data Integration Tool)is a custom software application that was developed as part of the Translator project in an effort to facilitate and automate the integration of clinical data with environmental exposures data.
 
