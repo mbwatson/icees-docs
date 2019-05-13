@@ -16,7 +16,7 @@ Roadway data are derived from GIS shapefiles provided by the US Federal Highway 
 
 Results are limited to major (or primary) roadway types, including interstates, principal arteries, minor arteries, and major collectors.
 
-Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, the Statue of Liberty in New York City is at latitude 40.689249 and longitude -74.044500
+Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, Raleigh, North Carolina is at latitude 35.7796 and longitude -78.6382.
 
 In addition to distance, the API retrieves additional information, including the roadway type, the maximum speed limit, the annual average daily traffic (AADT), and the total number of lanes. See https://www.fhwa.dot.gov/policyinformation/travel_monitoring/pubs/aadt/ for information on how AADT is computed.
 
