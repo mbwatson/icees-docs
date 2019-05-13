@@ -18,6 +18,24 @@ The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (re
 
 ## User Manual
 
+To get started with ROBOKOP, begin with the documentation that is available on the home page of the UI.
+
+[**ROBOKOP UI**](ROBOKOP_UI.png)
+
+ROBOKOP allows users to browse existing questions and answer sets or posit new questions to create new answer sets.
+
+[**Search existing ROBOKOP questions**](SearchQuestions.png)
+
+[**Create new questions using the question templates**](QuestionTemplate.png)
+
+![Question template input](QuestionTemplateInput.png)
+
+![Modify template](ModifyTemplate.png)
+
+![Modify template](ModifyTemplate2.png)
+
+![Name modified question and submit request for answers](NameSubmit.png)
+
 ### ROBOKOP Queries for COPs
 
 ROBOKOP can respond to arbitrary graph queries across biomedical topics. Of specific relevance to the proposed work, ROBOKOP is being used to explore a variety of COPs and AOPs. [Aside: ROBOKOP’s ability to generate comprehensive COPs using a KG-based system was one of several criteria for the Translator award. Of note, this capability was developed and a prototype was released in less than six months.] For example, ROBOKOP was used to generate a COP designed to investigate the MOA of nifedipine in the treatment of cardiovascular disease. This question was posed to ROBOKOP as a graph query finding a linear path starting at nifedipine and ending at cardiovascular disease, and traversing a specified set of node types in between:
