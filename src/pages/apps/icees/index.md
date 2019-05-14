@@ -33,9 +33,9 @@ The integrated feature tables are created via a custom software application pipe
 
 With ICEES, regulatory issues were addressed primarily by binning or recoding the data and presenting the data to users in aggregate form only
 
-[**Binning Approach**](BinningApproach.png)
+![Binning Approach](BinningApproach.png)
 
-[**Data Aggregation**](Aggregation.png)
+![Data Aggregation](Aggregation.png)
 
 ICEES is accessible via an OpenAPI.
 
