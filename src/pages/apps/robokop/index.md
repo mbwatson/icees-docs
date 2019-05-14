@@ -20,13 +20,13 @@ The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (re
 
 To get started with ROBOKOP, begin with the documentation that is available on the home page of the UI.
 
-[**ROBOKOP UI**](ROBOKOP_UI.png)
+![ROBOKOP UI](ROBOKOP_UI.png)
 
-ROBOKOP allows users to browse existing questions and answer sets or posit new questions to create new answer sets.
+ROBOKOP allows users to browse existing questions and answer sets or posit new questions to create new answer sets. Follow the UI step-by-step examples below for a demonstration.
 
-[**Search existing ROBOKOP questions**](SearchQuestions.png)
+![Search existing ROBOKOP questions](SearchQuestions.png)
 
-[**Create new questions using the question templates**](QuestionTemplate.png)
+![Create new questions using the question templates](QuestionTemplate.png)
 
 ![Question template input](QuestionTemplateInput.png)
 
