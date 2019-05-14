@@ -6,14 +6,13 @@ seo:
     keywords: ""
     description: ""
 ---
-
-[**TranQL**](http://tranql.renci.org)
-
-TranQL is an interactive environment for the iterative exploration of federated knowledge graphs with semantically rich visualizations. It queries knowledge models from multiple Translator reasoners federeated into unified schemas. The user interface supports iteratively querying, caching, visualizing, modifying, and requerying data across the federation. Completed queries can be incorporated into software systems requiring parameterized automation of the Translator semantic network.
+## TranQL
 
 ## Overview
 
-[TranQL](http://tranql.renci.org/) (Translator Query Language) was developed by [RENCI](https://renci.org/) to automate graph-oriented queries over Translator Knowledge Graph Standard (KGS) API services. The KGS API is the interface presented by [ROBOKOP](/apps/robokop), [ICEES](/apps/icees), and other Translator “Reasoners”. TranQL offers a  query and visualization interface to federated knowledge networks, with syntax that blends elements of relational and graph semantics to express a graph query and enable joins across Translator Reasoners. A simple, interactive user interface accepts a query in the TranQL query language, executes the query across one or more Reasoners, and visualizes the resulting KG.
+[**TranQL**](http://tranql.renci.org/) (Translator Query Language) is an interactive environment for the iterative exploration of federated knowledge graphs with semantically rich visualizations. It queries knowledge models from multiple Translator reasoners federeated into unified schemas. The user interface supports iteratively querying, caching, visualizing, modifying, and requerying data across the federation. Completed queries can be incorporated into software systems requiring parameterized automation of the Translator semantic network.
+
+TranQL was developed by [RENCI](https://renci.org/) to automate graph-oriented queries over Translator Knowledge Graph Standard (KGS) API services. The KGS API is the interface presented by [ROBOKOP](/apps/robokop), [ICEES](/apps/icees), and other Translator “Reasoners”. TranQL offers a  query and visualization interface to federated knowledge networks, with syntax that blends elements of relational and graph semantics to express a graph query and enable joins across Translator Reasoners. A simple, interactive user interface accepts a query in the TranQL query language, executes the query across one or more Reasoners, and visualizes the resulting KG.
 
 An example of a TranQL query and resultant KG is shown below. Here, TranQL was used to join results from [ICEES](/apps/icees) and [ROBOKOP](/apps/robokop) and explore relationships between patients with asthma who are vs are not responsive to treatment (as defined by emergency department or inpatient visits for respiratory issues), their chemical exposures, and the downstream gene targets, biological processes, and phenotypic features associated with those exposures.
 

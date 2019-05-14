@@ -7,6 +7,8 @@ seo:
     description: ""
 ---
 
+## Socio-environmental Exposures API
+
 ## Overview
 
 [**Socio-environmental Exposures API**](http://bdt-social.renci.org:8080/socio_environmental_exposures_api/v1/ui/#!/default/get_values)
@@ -34,6 +36,8 @@ The currently available variables are listed here:
 - EstPropPersonsNoHealthIns - estimated proportion of adults without health insurance
 - EstPropPersons25PlusHighSchoolMax - estimated porportion of adults age 25 or higher with at most a high school degree
 - EstPropPersons5PlusNoEnglish - estimated proportion of people speaking a language other than English at home
+
+Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, Raleigh, North Carolina is at latitude 35.7796 and longitude -78.6382.
 
 ## User Manual
 

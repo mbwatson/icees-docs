@@ -6,12 +6,11 @@ seo:
     keywords: ""
     description: ""
 ---
+## CMAQ Airborne Exposures API
 
 ## Overview
 
-[**CMAQ Airborne Exposures API**](http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values)
-
-This API returns estimated measurements of airborne particulate exposures for a given time period and spatial location of interest.
+The [**CMAQ Airborne Exposures API**](http://bdt-cmaq.renci.org:8080/cmaq_exposures_api/v1/ui/#!/default/get_values) returns estimated measurements of airborne particulate exposures for a given time period and spatial location of interest.
 
 Estimates are derived from the US EPA CONUS estimates of air quality available at https://www.epa.gov/hesc/rsig-related-downloadable-data-files. These data sets provide 8-hour ozone daily maximums (in ppbV) and daily PM2.5 daily averages (in µg/m3). The US EPA provides estimates at the resolution of US Census tract centroids for the continental US. For a given location, the API returns the estimated exposure for the census tract the location occurs in.
 
@@ -24,7 +23,7 @@ The API currently provides the following exposure variables:
 - O3: provides estimated O3 concentration levels. Estimated values are for daily maximums in units of ppbV.
 - PM2.5: provides estimated pm2.5 concentration levels. Estimated values are for daily averages in units of µg/m3.
 
-Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, the Statue of Liberty in New York City is at latitude 40.689249 and longitude -74.044500.
+Locations are expressed using WGS84 decimal format. WGS84 is the World Geodetic System for expressing latitude and longitude. For example, Raleigh, North Carolina is at latitude 35.7796 and longitude -78.6382.
 
 ## User Manual
 
