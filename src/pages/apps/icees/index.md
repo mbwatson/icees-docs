@@ -21,7 +21,7 @@ Note that the exposures data are accessible independent of ICEES via open APIs: 
 
 [ICEES](https://icees.renci.org/apidocs/) provides a regulatory-compliant, open framework and approach for sharing sensitive patient data, with minimal risk of data leakage and multiple embedded safeguards. ICEES exposes sufficiently granular clinical data to support reasoning and inference. It is compliant with HIPAA and UNC Chapel Hill policies and was approved by the Oversight Committee of the Carolina Data Warehouse for Health.
 
-[**Sensitivity of Patient Data**](SensitivityScale.png)
+![Sensitivity of Patient Data](SensitivityScale.png)
 
 **ICEES Integrated Feature Tables**
 
@@ -29,7 +29,7 @@ Integrated feature tables contain clinical data on patients from the UNC Health 
 
 The integrated feature tables are created via a custom software application pipeline. CAMP FHIR (Clinical Asset Mapping Program for FHIR), to transform clinical data from common data models (e.g., i2b2, PCORnet, OMOP) into HL7 Fast Healthcare Interoperability Resource (FHIR) files. A subsequent custom software application, FHIR PIT (Patient data Integration Tool), then integrates the clinical data with environmental exposures data from multiple sources before stripping the data of PHI and binning feature variables to create ICEES tables. Of note, FHIR PIT is modular and extensible and can be adapted for virtually any type of data that is of interest to clinical researchers and requires geocodes, dates, and identifiers for integration with EHR data.
 
-[**CAMP FHIR/FHIR PIT Conversion and Integration Pipeline**](CAMP_FHIR_FHIR_PIT.png)
+![CAMP FHIR/FHIR PIT Conversion and Integration Pipeline](CAMP_FHIR_FHIR_PIT.png)
 
 With ICEES, regulatory issues were addressed primarily by binning or recoding the data and presenting the data to users in aggregate form only
 
