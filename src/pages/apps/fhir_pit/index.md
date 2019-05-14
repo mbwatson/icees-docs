@@ -24,7 +24,7 @@ Note that the exposures data are accessible independent of ICEES via open APIs: 
 
 **Use Cases**
 
-To date, FHIR PIT has been used to integrate FHIR files from [CAMP FHIR](https://github.com/ResearchSoftwareInstitute/data-translator/blob/master/src/pages/apps/camp_fhir) with the public exposures data shown in the figure in the context of a use case that aims to explore environmental influences on asthma. The resultant work has been published (Ahalt et al. CTS, in press; Fecho et al. JAMIA, in press).
+To date, FHIR PIT has been used to integrate FHIR files from [CAMP FHIR](https://github.com/ResearchSoftwareInstitute/data-translator/blob/master/src/pages/apps/camp_fhir) with the public exposures data shown in the figure above in the context of a use case that aims to explore environmental influences on asthma. The resultant work has been published (Ahalt et al. CTS, in press; Fecho et al. JAMIA, in press).
 
 **Generalizability**
 
