@@ -27,6 +27,8 @@ module.exports = {
                     { text: "Roadway Service", path: "/apps/roadway", },
                     { text: "CMAQ Service", path: "/apps/cmaq", },
                     { text: "ACS Service", path: "/apps/acs", },
+                    { text: "CAMP FHIR", path: "/apps/camp-fhir", },
+                    { text: "FHIR PIT", path: "/apps/fhir-pit", },
                 ]
             },
             {

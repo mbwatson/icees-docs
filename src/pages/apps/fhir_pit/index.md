@@ -1,3 +1,11 @@
+---
+path: "/apps/fhir-pit"
+title: "FHIR PIT"
+seo:
+    title: "FHIR PIT"
+    keywords: ""
+    description: ""
+---
 ## FHIR PIT
 
 ## Overview
@@ -16,7 +24,7 @@ FHIR PIT  integrates clinical data with environmental exposures data from any nu
 
 A high-level overview of the pipeline is shown below.
 
-[**ICEES Integration Pipeline**](FHIR_PIT.png)
+![ICEES Integration Pipeline](FHIR_PIT.png)
 
 The data sources included in the figure represent those that are being used for the current ICEES integrated feature tables. (A dotted line means that the data have not yet been integrated.) FHIR PIT is not, however, restricted to these public exposures data; with slight modification, the pipeline can be adapted for virtually any data source.
 
