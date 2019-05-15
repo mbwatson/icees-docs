@@ -16,7 +16,7 @@ const Item = styled.span`
     text-transform: uppercase;
     text-decoration: none;
     padding: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     cursor: pointer;
     transition: color 250ms, letter-spacing 250ms;
     &:hover, &:focus {
@@ -36,7 +36,7 @@ const LinkedItem = styled(Link)`
     text-transform: uppercase;
     text-decoration: none;
     padding: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: color 250ms, letter-spacing 250ms;
     &:hover, &:focus {
         color: var(--color-accent);
@@ -54,7 +54,7 @@ const Expander = styled.div`
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    margin-left: 1rem;
 `
 
 const Sublist = styled.nav`
