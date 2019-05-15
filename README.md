@@ -197,18 +197,5 @@ Looking for more about Gatsby? Full documentation for Gatsby lives [on the websi
 - gh-pages - [https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)
 - Markdown - [https://www.markdownguide.org/](https://www.markdownguide.org/)
 
-## Field Notes
-
-Here are some observations from running gatsby.
-
-#### **Environment**
-
-The node.js version we're using is:
-```
-$ node --version
-v10.15.1
-```
-
-
 
 
