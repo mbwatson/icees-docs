@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 const MenuToggler = styled.button`
     background-color: var(--color-accent);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     position: absolute;
     cursor: pointer;
     width: 3rem;

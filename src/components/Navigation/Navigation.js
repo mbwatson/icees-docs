@@ -1,12 +1,22 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import './Navigation.scss'
 import { StaticQuery, Link, graphql } from 'gatsby'
 import { Rotator } from '../Rotator/Rotator'
-import { ExpandMoreIcon } from '../icons/ExpandMore'
+import { ExpandMoreIcon } from '../Icons/ExpandMore'
 
-const Item = styled.span`
+const Menu = styled.div`
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+`
+
+Menu.propTypes = {
+    children: PropTypes.node.isRequired,
+}
+
+const Item = styled.div`
     font-size: 90%;
     color: #666;
     font-weight: bold;
@@ -15,7 +25,7 @@ const Item = styled.span`
     justify-content: flex-start;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0;
+    padding: 0 1rem;
     letter-spacing: 1px;
     cursor: pointer;
     transition: color 250ms, letter-spacing 250ms;
@@ -25,17 +35,20 @@ const Item = styled.span`
     }
 `
 
+Item.propTypes = {
+    children: PropTypes.node.isRequired,
+}
+
 const LinkedItem = styled(Link)`
     font-size: 90%;
     color: #666;
     font-weight: bold;
     width: 100%;
     display: flex;
-    border-bottom: 1px solid #222;
     justify-content: flex-start;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0;
+    padding: 0 1rem;
     letter-spacing: 1px;
     transition: color 250ms, letter-spacing 250ms;
     &:hover, &:focus {
@@ -47,6 +60,10 @@ const LinkedItem = styled(Link)`
     }
 `
 
+LinkedItem.propTypes = {
+    children: PropTypes.node.isRequired,
+}
+
 const Expander = styled.div`
     width: 100%;
     transition: max-height 500ms;
@@ -54,8 +71,13 @@ const Expander = styled.div`
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+    padding-left: 0.5rem;
 `
+
+Expander.propTypes = {
+    children: PropTypes.node.isRequired,
+}
+
 
 const Sublist = styled.nav`
     display: flex;
@@ -64,6 +86,10 @@ const Sublist = styled.nav`
     align-items: center;
     width: 100%;
 `
+
+Sublist.propTypes = {
+    children: PropTypes.node.isRequired,
+}
 
 const ExpandingSublist = ({ title, children }) => {
     const [open, setOpen] = useState(true)
@@ -83,6 +109,10 @@ const ExpandingSublist = ({ title, children }) => {
             </Expander> 
         </Sublist>
     )
+}
+
+ExpandingSublist.propTypes = {
+    children: PropTypes.node.isRequired,
 }
 
 export const NavigationMenu = () => (
@@ -107,7 +137,7 @@ export const NavigationMenu = () => (
         render={
             data => {
                 return (
-                    <nav className="menu">
+                    <Menu>
                         {
                             data.site.siteMetadata.menuLinks.map(item =>
                                 item.submenu ? (
@@ -127,7 +157,7 @@ export const NavigationMenu = () => (
                                 )
                             )
                         }
-                    </nav>
+                    </Menu>
                 )
             }
         }

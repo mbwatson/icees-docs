@@ -19,7 +19,3 @@ blockquote p:not(:last-child) {
 blockquote p:last-child {
     text-align: right;
 }
-
-li {
-    line-height: 1;
-}
