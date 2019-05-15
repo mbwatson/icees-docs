@@ -2,6 +2,7 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
 }
 
 .menuItem {
@@ -13,13 +14,6 @@
 
 .menuItem:hover {
     background-color: #ddd;
-}
-
-.active {
-    background-color: var(--color-accent);
-    &:hover {
-        background-color: var(--color-accent);
-    }
 }
 
 

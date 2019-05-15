@@ -7,6 +7,7 @@ import { Rotator } from '../Rotator/Rotator'
 import { ExpandMoreIcon } from '../icons/ExpandMore'
 
 const Item = styled.span`
+    font-size: 90%;
     color: #666;
     font-weight: bold;
     width: 100%;
@@ -14,7 +15,7 @@ const Item = styled.span`
     justify-content: flex-start;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0;
     letter-spacing: 2px;
     cursor: pointer;
     transition: color 250ms, letter-spacing 250ms;
@@ -25,6 +26,7 @@ const Item = styled.span`
 `
 
 const LinkedItem = styled(Link)`
+    font-size: 90%;
     color: #666;
     font-weight: bold;
     width: 100%;
@@ -33,12 +35,15 @@ const LinkedItem = styled(Link)`
     justify-content: flex-start;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0;
     letter-spacing: 2px;
     transition: color 250ms, letter-spacing 250ms;
     &:hover, &:focus {
         color: var(--color-accent);
         letter-spacing: 1.5px;
+    }
+    &.active {
+        color: var(--color-accent);
     }
 `
 
@@ -61,7 +66,7 @@ const Sublist = styled.nav`
 `
 
 const ExpandingSublist = ({ title, children }) => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
 
     const handleExpand = () => setOpen(!open)
 
@@ -109,7 +114,7 @@ export const NavigationMenu = () => (
                                     <ExpandingSublist title={ item.text } key={ item.text }>
                                         {
                                             item.submenu.map(subitem => (
-                                                <LinkedItem key={ subitem.path } to={ subitem.path }>
+                                                <LinkedItem key={ subitem.path } to={ subitem.path } activeClassName="active">
                                                     { subitem.text }
                                                 </LinkedItem>
                                             ))
