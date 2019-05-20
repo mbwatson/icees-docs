@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
                 </div>
             </header>
             <main>
-                <MenuToggler open={ sidebarOpen } visible={ sidebarCollapsed } onClick={ handleSidebarToggle } />
+                <MenuToggler open={ sidebarOpen } visible={ sidebarCollapsed } onClick={ handleSidebarToggle } aria-label="Toggle Menu"/>
                 <aside
                     className={
                         classnames(

@@ -3,5 +3,6 @@
 :root {
   --heading-font: 'Libre Franklin', sans-serif;
   --paragraph-font: 'Libre Franklin', sans-serif;
-  --color-accent: #0af;
+  --color-accent: #007AB8;
+  --color-accent-light: #0af;
 }

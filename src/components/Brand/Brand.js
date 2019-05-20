@@ -20,7 +20,7 @@ const Title = styled.div`
 const Subtitle = styled.div`
     text-align: ${ props => props.center ? 'center' : 'left' };
     flex: 1;
-    color: var(--color-accent);
+    color: var(--color-accent-light);
     font-weight: normal;
     font-size: 80%;
 `
