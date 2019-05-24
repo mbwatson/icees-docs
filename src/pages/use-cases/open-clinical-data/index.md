@@ -23,7 +23,7 @@ These results replicate an established relationship between exposure to PM2.5 an
 
 Of note, these results have been published in *JAMIA*, a peer-reviewed journal (Fecho et al. 2019). An overview of clinical data types, including ICEES and COHD, also has been published in a peer-reviewed journal, *Clinical and Translational Science* (Ahalt et al. 2019).
 
-EP, SC, HX, and KF are now working together to further validate ICEES in the context of additional use cases cases and extend ICEES to include data on multiple patient cohorts and a variety of data types, including a variety of environmental exposures.
+EP, SC, HX, and KF are now working together to further validate ICEES in the context of additional use cases cases and extend ICEES to include data on multiple patient cohorts and a variety of data types.
 
 _**Translator-inspired innovation!**_
 
