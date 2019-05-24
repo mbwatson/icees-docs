@@ -23,7 +23,7 @@ Thus, DP was able to use ICEES to confirm and extend suspected interactions betw
 
 ![PM2.5_diabetes_obesity](PM2.5_diabetes_obesity.png)
 
-Of note, this entire research study was conceptualized and executed in less than one week. A full-length manuscript describing this work and related work has been submitted for peer review to the *Journal of Biomedical Informatics* (Fecho et al., submitted to *Journal of Biomedical Informatics* for consideration as a Special Communication with approval from the Editor-in-Chief). A more rigorous follow-up study is proposed as part of DP’s NIH grant application.
+Of note, this entire research study was conceptualized and executed during a **five-day hackathon**. A full-length manuscript describing this work and related work has been submitted to the *Journal of Biomedical Informatics* for consideration as a Special Communication. A more rigorous follow-up study is proposed as part of DP’s NIH grant application.
 
 **Translator hackathon-enabled clinical insights!**
 
