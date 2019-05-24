@@ -1,6 +1,6 @@
 ---
 path: "/use-cases/racial-disparities"
-title: "Racial Disparities in Health Outcomes"
+title: "Open Public Health Research"
 seo:
     title: "Racial Disparities in Health Outcomes"
     keywords: ""
