@@ -1,5 +1,5 @@
 ---
-path: "/use-cases/innovation-open-clinical-research"
+path: "/use-cases/open-clinical-research"
 title: "Innovation"
 seo:
     title: "Innovations in Open Clinical Research"

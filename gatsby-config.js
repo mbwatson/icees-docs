@@ -16,6 +16,9 @@ module.exports = {
                     { text: 'Open Clinical Research', path: '/use-cases/open-clinical-research' },
                     { text: 'Serendipity', path: '/use-cases/serendipity' },
                     { text: 'Drug Discovery', path: '/use-cases/drug-discovery' },
+                    { text: 'Hackathon Insights', path: '/use-cases/hackathon-insights' },
+                    { text: 'Medication Indicators', path: '/use-cases/medication-indicators' },
+                    { text: 'Racial Disparities', path: '/use-cases/racial-disparities' },
                 ]
             },
             {

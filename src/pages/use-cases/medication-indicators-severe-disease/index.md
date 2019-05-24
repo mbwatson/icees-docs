@@ -1,5 +1,5 @@
 ---
-path: "/use-cases/medication-indicators-severe-disease"
+path: "/use-cases/medication-indicators"
 title: "Indicators of Severe Disease"
 seo:
     title: "Medication Indicators of Severe Disease"
@@ -15,7 +15,7 @@ DBP is a physician who specializes in the treatment of respiratory conditions. H
 
 To determine whether prednisone usage can be considered an indicator of severe asthma, DBP submitted a query to ICEES that asked: what is the association between prednisone administration/prescription and emergency department (ED) or inpatient visits for respiratory issues among patients with ‘asthma-like’ conditions? The results indicated that 9.84% of patients were prescribed or administered prednisone at least one time over a one-year period (N = 22,810; calendar year 2010). Moreover, 16.67% of those patients who were administered/prescribed prednisone (N = 2,244) had two or more annual ED or inpatient visits for respiratory issues compared to 5.58% of patients who were not administered/prescribed prednisone (N = 20,566; P < 0.0001).
 
-[Prednisone.png](Prednisone.png)
+![Prednisone.png](Prednisone.png)
 
 While these results confirm DBP’s clinic experience, and thus perhaps are not surprising, they are remarkable in that they suggest that medication usage, as revealed by ICEES, can be used as a surrogate marker or indicator of patients with severe disease. This capability offers a great deal of flexibility in study design using ICEES.
 

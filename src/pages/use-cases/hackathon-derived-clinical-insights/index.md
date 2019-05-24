@@ -1,5 +1,5 @@
 ---
-path: "/use-cases/hackathon-clinical-insights"
+path: "/use-cases/hackathon-insights"
 title: "Innovation"
 seo:
     title: "Hackathon-derived Clinical Insights"
@@ -21,7 +21,7 @@ DP submitted several ICEES queries, designed as 2 x 2 association tests, that as
 
 Thus, DP was able to use ICEES to confirm and extend suspected interactions between exposure to airborne particulates and metabolic disorders such as obesity and diabetes (e.g., Eze et al. 2015).
 
-[PM2.5_diabetes_obesity](PM2.5_diabetes_obesity.png)
+![PM2.5_diabetes_obesity](PM2.5_diabetes_obesity.png)
 
 Of note, this entire research study was conceptualized and executed in less than one week. A full-length manuscript describing this work and related work has been submitted for peer review to the Journal of Biomedical Informatics (Fecho et al., submitted to Journal of Biomedical Informatics for consideration as a Special Communication with approval from the Editor-in-Chief). A more rigorous follow-up study is proposed as part of DP’s NIH grant application.
 
