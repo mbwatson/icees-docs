@@ -26,3 +26,14 @@ Of note, these results have been published in JAMIA, a peer-reviewed journal (Fe
 EP, SC, HX, and KF are now working together to further validate ICEES in the context of additional use cases cases and scientific questions and to extend ICEES to include data on multiple patient cohorts and numerous environmental exposures.
 
 _**Translator-inspired innovation!**_
+
+**References:**
+
+Ahalt SC, Chute CG, Fecho K, Glusman G, Hadlock J, Solbrig H, Overby-Taylor C, Pfaff E, Ta C, Tatonetti N, Weng C,* and The NCATS Biomedical Data Translator Consortium. Clinical data: sources and types, regulatory constraints, applications. Clin Transl Sci, 2019 [E-pub ahead of print] doi: 10.1111/cts.12638. *Authors are listed alphabetically. https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.12638.
+
+Fecho K, Pfaff E, Xu H, Champion J, Cox S, Stillwell L, Bizon C, Peden D, Krishnamurthy A, Tropsha A, Ahalt SC. A novel approach for exposing and sharing clinical data: the Translator Integrated Clinical and Environmental Exposures Service. J Am Med Inform Assoc., 2019 [E-pub ahead of print]. doi: 10.1093/jamia/ocs042. https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocz042/5480568?redirectedFrom=fulltext.
+
+Mirabelli MC, Vaidyanathan A, Flanders WD, Qin X, Garbe P. Outdoor PM2.5, ambient air temperature, and asthma symptoms in the past 14 days among adults with active asthma. Environ Health Perspect 2016;124(12):1882–90.
+
+Ta C, Dumontier M, Hripcsak G, Tatonetti N, Weng C. Columbia Open Health Data, clinical concept prevalence and co-occurrence from electronic health records. Sci Data 2018; 5:180273. doi:10.1038/sdata.2018.273.
+
