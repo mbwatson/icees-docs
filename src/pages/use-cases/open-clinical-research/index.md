@@ -17,6 +17,6 @@ Red Team’s work triggers an interesting thought among Green Team members: what
 
 ICEES has shown promise as a new approach for open access to observational patient data that have been integrated with environmental exposures data at the patient and visit level. For instance, the figure below demonstrates a significant association between exposure to particulate matter of size ≤ 2.5-microns in diameter (PM2.5) and emergency department (ED) or inpatient visits for respiratory issues among patients with ‘asthma-like’ conditions. Specifically, the results show that the proportion of patients with two or more annual ED or inpatient visits for respiratory issues increases with increases in maximum daily exposure to PM2.5 (N = 23,093; P < 0.0001; calendar year 2010).
 
-![PM2.5_ED_Inpatient_Visits](/apps/icees) (PMS2.5_ED_Inpatient_Visits)
+![PM2.5_ED_Inpatient_Visits](/apps/icees) (PMS2.5_ED_Inpatient_Visits3)
 
 _**Translator-enabled open clinical research!**_
