@@ -1,13 +1,13 @@
 ---
-path: "/use-cases/open-clinical-research"
-title: "Open Clinical Research"
+path: "/use-cases/innovation-open-clinical-research"
+title: "Innovation"
 seo:
-    title: "Open Clinical Research"
+    title: "Innovations in Open Clinical Research"
     keywords: ""
     description: ""
 ---
 
-## Open and Integrable Clinical Data<a name="open-and-integrable-clinical-data"></a>
+## Innovations in Open Clinical Research<a name="innovations-in-open-clinical-research"></a>
 
 EP, SC, HX, and KF represent scientific and technical members of Green Team who are working together to integrate clinical data with non-clinical data as part of the Translator program. They realize that the Translator program is grounded in open science and the ability to openly access and integrate disparate biomedical datasets, including clinical datasets. Yet, they also recognize and respect the numerous federal regulations, such as HIPAA, that surround the use of human subjects in research and the right to access clinical data. In addition, EP, SC, HX, and KF are aware that institution-specific regulations and guidelines surround access to clinical data and address cultural sensitivities and concerns regarding the reputation and liability of healthcare providers and institutions. Moreover, they recognize that the integration of clinical datasets with non-clinical datasets presents technical challenges. For instance, the integration of clinical data with data on environmental exposures requires a careful consideration of space (i.e., where a patient is exposed) and time (i.e., when a patient is exposed), necessitating access to Protected Health Information (PHI), i.e., geocodes and dates.
 
@@ -19,4 +19,10 @@ ICEES has shown promise as a new approach for open access to observational patie
 
 ![PM2.5_ED_Inpatient_Visits](/apps/icees) (PMS2.5_ED_Inpatient_Visits3)
 
-_**Translator-enabled open clinical research!**_
+These results replicate an established relationship between exposure to PM2.5 and asthma exacerbations (e.g., Mirabelli et al. 2016)—a critical landmark in validation of ICEES and demonstration of the service’s utility.
+
+Of note, these results have been published in JAMIA, a peer-reviewed journal (Fecho et al. 2019). An overview of clinical data types, including ICEES and COHD, also has been published in a peer-reviewed journal, Clinical and Translational Science (Ahalt et al. 2019).
+
+EP, SC, HX, and KF are now working together to further validate ICEES in the context of additional use cases cases and scientific questions and to extend ICEES to include data on multiple patient cohorts and numerous environmental exposures.
+
+_**Translator-inspired innovation!**_
