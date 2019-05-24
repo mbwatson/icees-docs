@@ -15,3 +15,11 @@ The Translator program aims to provide a comprehensive, open solution to acceler
 ![Data Translator Consortium](data-translator-consortium.png)
 
 **Funding Support:** OT3TR002026 [Blue], OT3TR002020 [Green], OT3TR002025 [Grey], OT3TR002019 [Orange], OT3TR002027 [Red], OT2TR002517 [Alpha], OT2TR002514 [Gamma], OT2TR002515 [IR], OT2TR002584 [UV], OT2TR002520 [X-Ray], UL1TR002489 [NC TraCS]
+
+**References:**
+
+Austin CP, Colvis CM, Southall NT. Deconstructing the translational tower of babel. *Clin Transl Sci* 2019;12(2):85. [doi:10.1111/cts.12595](https://doi.org/10.1111/cts.12595). https://www.ncbi.nlm.nih.gov/pubmed/30412342.
+
+The Biomedical Data Translator Consortium. The Biomedical Data Translator program: conception, culture, and community. *Clin Transl Sci* 2019;12(2):86–90. [doi:10.1111/cts.12592](https://doi.org/10.1111/cts.12592). https://www.ncbi.nlm.nih.gov/pubmed/30412340. [**K Fecho**, lead author; **SC Ahalt**, **DB Peden**, **A Tropsha**, key contributors]
+
+The Biomedical Data Translator Consortium. Toward a universal biomedical data translator. *Clin Transl Sci* 2019;12(2):91–94. [doi:10.1111/cts.12591](https://doi.org/10.1111/cts.12591). https://www.ncbi.nlm.nih.gov/pubmed/304121337. [**K. Fecho**, lead author; **SC Ahalt**, senior author; **J Balhoff**, **C Bizon**, **S Cox**, **DB Peden**, key contributors]
