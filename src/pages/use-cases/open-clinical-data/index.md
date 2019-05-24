@@ -2,12 +2,12 @@
 path: "/use-cases/open-clinical-data"
 title: "Innovation"
 seo:
-    title: "Innovations in Open Clinical Research"
+    title: "Innovation in Open Clinical Research"
     keywords: ""
     description: ""
 ---
 
-## Innovations in Open Clinical Research<a name="innovations-in-open-clinical-research"></a>
+## Innovation in Open Clinical Research<a name="innovation-in-open-clinical-research"></a>
 
 EP, SC, HX, and KF represent scientific and technical members of Green Team who are working together to integrate clinical data with non-clinical data as part of the Translator program. They realize that the Translator program is grounded in open science and the ability to openly access and integrate disparate biomedical datasets, including clinical datasets. Yet, they also recognize and respect the numerous federal regulations, such as HIPAA, that surround the use of human subjects in research and the right to access clinical data. In addition, EP, SC, HX, and KF are aware that institution-specific regulations and guidelines surround access to clinical data and address cultural sensitivities and concerns regarding the reputation and liability of healthcare providers and institutions. Moreover, they recognize that the integration of clinical datasets with non-clinical datasets presents technical challenges. For instance, the integration of clinical data with data on environmental exposures requires a careful consideration of space (i.e., where a patient is exposed) and time (i.e., when a patient is exposed), necessitating access to Protected Health Information (PHI), i.e., geocodes and dates.
 
