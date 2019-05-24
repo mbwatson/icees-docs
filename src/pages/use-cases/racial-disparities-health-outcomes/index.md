@@ -19,7 +19,7 @@ The results showed that among African Americans with asthma-like conditions, the
 
 These findings replicate published literature on the association between airborne pollutant exposure and asthma exacerbations (e.g., Mirabelli et al. 2016). Furthermore, they extend those findings to include a comparative race-based analysis.
 
-In addition, and of interest to JJ and SA, the results further demonstrate an overall higher proportion of patients with two or more annual ED or inpatient visits for respiratory issues among African Americans with asthma-like conditions than among Caucasians with asthma-like conditions (20.47% vs 15.07%; P < 0.0001; N = 19,555), thus revealing a potential racial disparity in health outcomes.
+Moreover, and of interest to JJ and SA, the results demonstrated an overall higher proportion of patients with two or more annual ED or inpatient visits for respiratory issues among African Americans with asthma-like conditions than among Caucasians with asthma-like conditions (20.47% vs 15.07%; P < 0.0001; N = 19,555), thus revealing a potential racial disparity in health outcomes.
 
 A portion of this work has been published in *Clinical and Translational Science* (Ahalt et al. 2019). Complete findings, including those shown here and other ones, will be described in a manuscript that is under development and targeted for *Public Health Reports*.
 
