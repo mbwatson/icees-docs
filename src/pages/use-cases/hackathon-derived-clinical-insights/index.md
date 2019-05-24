@@ -1,6 +1,6 @@
 ---
 path: "/use-cases/hackathon-insights"
-title: "Innovation"
+title: "Hackathon Clinical Insights"
 seo:
     title: "Hackathon-derived Clinical Insights"
     keywords: ""

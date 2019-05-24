@@ -13,12 +13,12 @@ module.exports = {
                 submenu: [
                     { text: 'COP Insights', path: '/use-cases/cop-insights' },
                     { text: 'AOP Insights', path: '/use-cases/aop-insights' },
-                    { text: 'Open Clinical Research', path: '/use-cases/open-clinical-research' },
+                    { text: 'Open Clinical Research', path: '/use-cases/open-clinical-data' },
+                    { text: 'Medication Indicators', path: '/use-cases/medication-indicators' },
+                    { text: 'Hackathon Insights', path: '/use-cases/hackathon-insights' },
+                    { text: 'Public Health Research', path: '/use-cases/racial-disparities' },
                     { text: 'Serendipity', path: '/use-cases/serendipity' },
                     { text: 'Drug Discovery', path: '/use-cases/drug-discovery' },
-                    { text: 'Hackathon Insights', path: '/use-cases/hackathon-insights' },
-                    { text: 'Medication Indicators', path: '/use-cases/medication-indicators' },
-                    { text: 'Racial Disparities', path: '/use-cases/racial-disparities' },
                 ]
             },
             {

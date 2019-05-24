@@ -1,6 +1,6 @@
 ---
-path: "/use-cases/open-clinical-research"
-title: "Innovation"
+path: "/use-cases/open-clinical-data"
+title: "Innovations in Open Clinical Research"
 seo:
     title: "Innovations in Open Clinical Research"
     keywords: ""

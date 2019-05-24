@@ -1,6 +1,6 @@
 ---
 path: "/use-cases/medication-indicators"
-title: "Indicators of Severe Disease"
+title: "Medication Indicators of Severe Disease"
 seo:
     title: "Medication Indicators of Severe Disease"
     keywords: ""
