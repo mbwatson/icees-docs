@@ -17,11 +17,11 @@ To determine whether prednisone usage can be considered an indicator of severe a
 
 ![Prednisone.png](Prednisone.png)
 
-While these results confirm DBP’s clinic experience, and thus perhaps are not surprising, they are remarkable in that they suggest that medication usage, as revealed by ICEES, can be used as a surrogate marker or indicator of patients with severe disease. Note that the design of ICEES integrated feature tables can be adapted (within regulatory constraints) to accommodate a variety of data types and address different questions. This capability offers a great deal of flexibility in open study design.
+While these results confirm DBP’s clinic experience, and thus perhaps are not surprising, they are remarkable in that they suggest that medication usage, as revealed by ICEES, can be used as a surrogate marker or indicator of patients with severe diseas
 
-These results and other hackathon products are included in a manuscript that is under review as a Special Communication in *Journal of Biomedical Informatics*. 
+These results are included in a manuscript that is under review as a Special Communication in *Journal of Biomedical Informatics*. 
 
-**Translator-enabled flexibile and open study design: medication indicators of severe disease!** 
+**Translator-enabled insights into medication indicators of severe disease!** 
 
 **References:**
 
