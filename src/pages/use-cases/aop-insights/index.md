@@ -25,7 +25,7 @@ Translator team members used [ROBOKOP](/apps/robokop) to generate AOPs for each 
 _**Translator-enabled insights into AOPs!**_
 
 
-### References
+**References**
 
 **Bizon C**, **Cox S**, **Balhoff J**, **Kebede Y**, **Wang P**, **Morton K**, **Fecho K**, **Tropsha A**. ROBOKOP KG AND KGB: Integrated Knowledge Graphs from Federated Sources. *JCIM*, under review.
 
