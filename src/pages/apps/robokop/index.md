@@ -60,7 +60,7 @@ Users can interact with the graph and explore the supporting publications. In th
 
 Similarly, ROBOKOP can be used to generate AOPs. The example below shows an AOP for the negative effects of particulate matter on cardiovascular disease.
 
-![AOP particulate matter to cardiovascular disease](ROBOKOP_AOP_acreenshot.png)[]()
+![AOP particulate matter to cardiovascular disease](ROBOKOP_AOP_screenshot.png)[]()
 
 The top answer subgraph for this AOP is shown below. In this example, ROBOKOP established a relationship between particulate matter and the TNF gene, with 47 total supporting PubMed publications and predicates that include “increases secretion”, “increases expression”, and “affects response”. In this answer subgraph, the supporting publications were derived from CTD.
 
