@@ -79,7 +79,9 @@ is shown below.
 The ROBOKOP KG also can be queried directly using cypher queries.
 
 *Example 1.* Graphical representation of a simple cypher query of the ROBOKOP KG. Simple linear queries, with one or more interior nodes, are a common use case for ROBOKOP KG. An example “two-hop” cypher query of the ROBOKOP KG asks: what cells are part of the brain and are related to the biological process of thyroid stimulating hormone secretion? The query itself is structured as a linear chain as follows:
-anatomical entity (brain) – cell – biological process or activity (thyroid stimulating hormone secretion)
+<p style="text-align: center;">
+    anatomical entity (brain) – cell – biological process or activity (thyroid stimulating hormone secretion)
+</p>
 
 ![Graphical representation of simple linear query of ROBOKOP KG](ROBOKOP_KG_SimpleQuery.png)[]()
 
