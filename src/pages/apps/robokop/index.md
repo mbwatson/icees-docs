@@ -14,7 +14,7 @@ seo:
 
 The ROBOKOP KG contains approximately 500,000 nodes (entities) and 12M edges (relationships).  A publicly available version of the database can be accessed at http://robokopkg.renci.org. A simplified version of the KG schema is shown below. An edge connecting two entities means that one or more data sources connecting entities of those types has been integrated into the ROBOKOP KG.
 
-![KG schema](kg-schema.png)
+![ROBOKOP_KG_DatabaseSchema](ROBOKOP_KG_DatabaseSchema.png)
 
 ## User Manual
 
@@ -60,11 +60,11 @@ Users can interact with the graph and explore the supporting publications. In th
 
 Similarly, ROBOKOP can be used to generate AOPs. The example below shows an AOP for the negative effects of particulate matter on cardiovascular disease.
 
-![AOP particulate matter to cardiovascular disease](robokop-generated-aops.png)[]()
+![AOP particulate matter to cardiovascular disease](ROBOKOP_AOP_screenshot.png)[]()
 
 The top answer subgraph for this AOP is shown below. In this example, ROBOKOP established a relationship between particulate matter and the TNF gene, with 47 total supporting PubMed publications and predicates that include “increases secretion”, “increases expression”, and “affects response”. In this answer subgraph, the supporting publications were derived from CTD.
 
-![Subgraph and supporting publications for particulate matter and the TNF gene](particulate-matter-tnf-relationship.png)[]()
+![Subgraph and supporting publications for particulate matter and the TNF gene](ROBOKOP_AOP2_screenshot.png)[]()
 
 The first citation for the relationship
 
@@ -73,6 +73,23 @@ The first citation for the relationship
 is shown below.
 
 ![First supporting publication for particulate matter and the TNF gene](particulate-matter-increases-secretion-tnf.png)[]()
+
+### Direct Cypher Queries of ROBOKOP KG
+
+The ROBOKOP KG also can be queried directly using cypher queries.
+
+*Example 1.* Graphical representation of a simple cypher query of the ROBOKOP KG. Simple linear queries, with one or more interior nodes, are a common use case for ROBOKOP KG. An example “two-hop” cypher query of the ROBOKOP KG asks: what cells are part of the brain and are related to the biological process of thyroid stimulating hormone secretion? The query itself is structured as a linear chain as follows:
+anatomical entity (brain) – cell – biological process or activity (thyroid stimulating hormone secretion)
+
+![Graphical representation of simple linear query of ROBOKOP KG](ROBOKOP_KG_SimpleQuery.png)[]()
+
+*Example 2.* Graphical representation of a complex cypher query of the ROBOKOP KG. This query searches for potential treatments for IBS by looking for drugs that act on disease-related genes in a manner that is opposite to that of disease-contributing chemical substances. (The cypher query can be found in the user guide available at robokopkg.renci.org.)
+
+![Graphical representation of complex query on IBS](ROBOKOP_KG_ComplexQuery.png)[]()
+
+*Example 3.* Graphical representation of a complex cypher query of the ROBOKOP KG. The query looks for putative rare disease treatments among treatments for biologically-related common diseases, i.e., common diseases that share both a gene and a biological process with the input rare disease. (The cypher query can be found in the user guide available at robokopkg.renci.org.)
+
+![Graphical representation of complex query on chronic granulomatosis](ROBOKOP_KG_ComplexQuery2.png)[]()
 
 
 
