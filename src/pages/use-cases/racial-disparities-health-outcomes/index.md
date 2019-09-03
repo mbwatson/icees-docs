@@ -15,7 +15,7 @@ JJ and SA learn that [ICEES](/apps/icees) contains not only clinical data, but a
 
 The results showed that among African Americans with asthma-like conditions, the proportion of patients with two or more annual emergency department (ED) or inpatient visits for respiratory issues was higher among those exposed to relatively high average daily levels of PM2.5 than among those exposed to relatively low average daily levels of PM2.5 (21.10% versus 8.90%, P < 0.0001, N = 6,379). Caucasian patients with asthma-like conditions showed a similar relationship, with a greater proportion of patients with two or more annual ED or inpatient visits for respiratory issues among those exposed to relatively high average daily levels of PM2.5 than among those exposed to relatively low average daily levels of PM2.5 (15.70% versus 7.84%, P < 0.0001, N = 13,176).
 
-![RacalDisparitiesPM2.5Asthma](RacialDisparitiesPM2.5Asthma.png)
+![RacalDisparitiesPM2.5Asthma](RacialDisparitiesPM2.5Asthma.png)[]()
 
 These findings replicate published literature on the association between airborne pollutant exposure and asthma exacerbations (e.g., Mirabelli et al. 2016). Furthermore, they extend those findings to include a comparative race-based analysis.
 
