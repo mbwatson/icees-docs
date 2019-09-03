@@ -92,4 +92,3 @@ anatomical entity (brain) – cell – biological process or activity (thyroid s
 ![Graphical representation of complex query on chronic granulomatosis](ROBOKOP_KG_ComplexQuery2.png)[]()
 
 
-
