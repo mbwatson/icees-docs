@@ -16,3 +16,9 @@ CB is a bioinformatician who is interested in learning more about the ways that 
 The general query identified eight different genes among the top 20 answers (SREBF1, LDLR, NFE2L2, CYP2E1, PPARA, CYP1A2, CYP17A1, and GSTM1) and 15 chemicals, including drugs that are known to lower cholesterol or triglycerides (simvastatin, pirinixic acid, bezafibrate, clofibrate, fenofibrate), as well as drugs that are known to increase risk for NAFLD, such as phenobarbital. Adding the constraint that genes must share a biological process with NAFLD reduces the answer set to a single gene, LDLR, which shares with NAFLD the biological process "plasma lipoprotein particle clearance", and nine chemicals, including five statins, pirinixic acid, ciprofibrate, pioglitazone, and troglitazone. None of these chemicals directly target LDLR, but all have a downstream effect on the gene. Curiously, the suggested drugs are used to treat high cholesterol or diabetes... not NAFLD, although a couple of the drugs have database annotation indicating an association with NAFLD. CB thus conducts a quick search of the literature and finds evidence for off-label use of the identified drugs in the treatment of NAFLD, with a growing interest in formal evaluation of the drugs for efficacy in the treatment of NAFLD.
 
 _**Translator-enabled drug discovery!**_
+
+**References**
+
+**Bizon C**, **Cox S**, **Balhoff J**, **Kebede Y**, **Wang P**, **Morton K**, **Fecho K**, **Tropsha A**. ROBOKOP KG AND KGB: Integrated Knowledge Graphs from Federated Sources. *JCIM*, under review.
+
+**Morton K**, **Wang P**, **Bizon C**, **Cox S**, **Balhoff**, **Kebede Y**, **Fecho K**, **Tropsha A**. ROBOKOP: an abstraction layer and user interface for knowledge grpahs to support question answering. *Bioinformatics*, 2019. [doi:10.1093/bioinformatics/btz604](https://doi.org/10.1093/bioinformatics/btz604).
