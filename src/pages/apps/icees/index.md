@@ -84,8 +84,6 @@ Prednisone use is a common indicator of a patient with severe asthma.
 
 Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 23,093 in year 2010, v1.0.0), the percentage of patients with >=2 ED or inpatient visits for respiratory issues increases with increasing levels of exposure to particulate matter <=2.5-microns in diameter (P < 0.0001). The non-linearity of the exposure-response curve imposed by Bin 5 reflects the fact that only 11 patients were binned into that exposure category. A new ICEES feature accounts for this issue by allowing users to collapse contiguous bins and/or choose from a variety of binning strategies via the selection of feature variables (see ICEES documentation).
 
-*Fecho et al., accepted for publication in JAMIA*
-
 ![Functionality4_Output](Functionality4_Output.png)
 
 
