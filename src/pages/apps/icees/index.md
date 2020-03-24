@@ -19,7 +19,7 @@ Note that the exposures data are accessible independent of ICEES via open APIs: 
 
 **ICEES Overview**
 
-[ICEES](https://icees.renci.org/apidocs/) provides a regulatory-compliant, open framework and approach for sharing sensitive patient data, with minimal risk of data leakage and multiple embedded safeguards. ICEES exposes sufficiently granular clinical data to support reasoning and inference. It is compliant with HIPAA and UNC Chapel Hill policies and was approved by the Oversight Committee of the Carolina Data Warehouse for Health.
+[ICEES](https://icees.renci.org:16339/apidocs/) provides a regulatory-compliant, open framework and approach for sharing sensitive patient data, with minimal risk of data leakage and multiple embedded safeguards. ICEES exposes sufficiently granular clinical data to support reasoning and inference. It is compliant with HIPAA and UNC Chapel Hill policies and was approved by the Oversight Committee of the Carolina Data Warehouse for Health.
 
 ![Sensitivity of Patient Data](SensitivityScale.png)
 
