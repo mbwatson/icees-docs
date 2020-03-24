@@ -17,6 +17,8 @@ Austin CP, Colvis CM, Southall NT. Deconstructing the translational tower of bab
 
 Bradford KC, **Bizon C**, Morris E, Graff M, Wang Y, North KE, Gordon-Larsen P. Integrative analysis of obesity GWAS and MWAS reveals explanatory metabolic patterns. Poster presentation, INSS 2019.
 
+**Cox S**, **Ahalt SC**, **Balhoff J**, **Bizon C**, **Fecho K**, **Kebede Y**, **Morton K**, **Tropsha A**, **Wang P**, **Xu H**. TranQL: an interactive query and visualization environment for federated knowledge graphs. *JMIR Medical Informatics*, under review.
+
 **Fecho K**,* Hadlock J, Ta C, **Xu H**, Zhu R, Zhu Q, **Arunachalum S**, **Champion J**, Chute CG, Gersing K, Glusman G, Lee J, **Pfaff E**, Robinson M, Sid E, **Peden DB** and The Biomedical Data Translator Consortium. Sex, obesity, diabetes, and exposure to particulate matter: scientific insights revealed by analysis of open clinical data sources during a five day hackathon. *Journal of Biomedical Informatics* 2019;100:103325. [doi:10.1016/j.jbi.2019.103325](http://doi.org/10.1016/j.jbi.2019.103325). *Apart from the first/lead and last/senior authors, all other authors are listed in alphabetical order.
 
 **Fecho K**, **Pfaff E**, **Xu H**, **Champion J**, **Cox S**, **Stillwell L**, **Bizon C**, **Peden D**, **Krishnamurthy A**, **Tropsha A**, **Ahalt SC**. A novel approach for exposing and sharing clinical data: the Translator Integrated Clinical and Environmental Exposures Service. *JAMIA* 2019;26(10):1064-1073. [doi:10.1093/jamia/ocz042](https://doi.org/10.1093/jamia/ocz042). https://academic.oup.com/jamia/advance-article-abstract/doi/10.1093/jamia/ocz042/5480568?redirectedFrom=fulltext.
@@ -30,3 +32,5 @@ Bradford KC, **Bizon C**, Morris E, Graff M, Wang Y, North KE, Gordon-Larsen P. 
 The Biomedical Data Translator Consortium. The Biomedical Data Translator program: conception, culture, and community. *Clin Transl Sci* 2019;12(2):86–90. [doi:10.1111/cts.12592](https://doi.org/10.1111/cts.12592). https://www.ncbi.nlm.nih.gov/pubmed/30412340. [**K Fecho**, lead author; **SC Ahalt**, **DB Peden**, **A Tropsha**, key contributors]
 
 The Biomedical Data Translator Consortium. Toward a universal biomedical data translator. *Clin Transl Sci* 2019;12(2):91–94. [doi:10.1111/cts.12591](https://doi.org/10.1111/cts.12591). https://www.ncbi.nlm.nih.gov/pubmed/304121337. [**K. Fecho**, lead author; **SC Ahalt**, senior author; **J Balhoff**, **C Bizon**, **S Cox**, **DB Peden**, key contributors]
+
+**Xu H**, **Cox S**, **Stillwell L**, **Pfaff E**, **Champion J**, **Ahalt SC**, **Fecho K**. FHIR PIT: an open software application for spatiotemporal integration of clinical data and environmental exposures data. *BMC Medical Informatics and Decision Making* 2020;20:article 53. doi: 10.21203/rs.2.19633/v1.
