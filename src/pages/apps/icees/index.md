@@ -8,6 +8,8 @@ seo:
 ---
 ## ICEES (Integrated Clinical and Environmental Exposures Service)
 
+![ICEES_Logo](ICEES_Logo.png)
+
 ## Overview
 Access to clinical data is critical for the advancement of translational research. Yet, the many regulations that surround the use of clinical data, while critical to ensure and respect patient privacy, often hinder access to clinical data for research purposes. Moreover, the ability to share clinical data across institutions is central to open team science and the success of multi-institutional consortia such as The Biomedical Data Translator Consortium. One of the goals of the Translator program is to find novel ways to openly share computable data, including sensitive clinical data, and allow its integration in surprising ways (Ahalt et al. 2019).
 
@@ -29,13 +31,11 @@ ICEES integrated feature tables contain clinical data on patients from the UNC H
 
 The integrated feature tables are created via a custom software application pipeline. CAMP FHIR (Clinical Asset Mapping Program for FHIR), to transform clinical data from common data models (e.g., i2b2, PCORnet, OMOP) into HL7 Fast Healthcare Interoperability Resource (FHIR) files (Pfaff et al. 2019). A subsequent custom software application, FHIR PIT (Patient data Integration Tool), then integrates the clinical data with environmental exposures data from multiple sources before stripping the data of PHI and binning feature variables to create ICEES tables (Xu et al. 2020). Of note, FHIR PIT is modular and extensible and can be adapted for virtually any type of data that is of interest to clinical researchers and requires geocodes, dates, and identifiers for integration with EHR data.
 
-![CAMP FHIR/FHIR PIT Conversion and Integration Pipeline](CAMP_FHIR_FHIR_PIT.png)
+![CAMP FHIR/FHIR PIT Conversion and Integration Pipeline](CAMP-FHIR_FHIR-PIT.png)
 
 With ICEES, regulatory issues were addressed primarily by binning or recoding the data and presenting the data to users in aggregate form only
 
-![Binning Approach](BinningApproach.png)
-
-![Data Aggregation](Aggregation.png)
+![ICEES Integrated Feature Table & Binning Approach](ICEES_Integrated_Feature_Table.png)
 
 ICEES is accessible via an OpenAPI.
 
@@ -48,27 +48,33 @@ ICEES is accessible via an OpenAPI.
 *New functionalities continue to be added. For instance, ICEES supports the generation of a multivariate table that supports the application of statistical models and machine learning algorithms (Fecho et al. 2021; Lan et al. 2021).
 
 **ICEES API**
-![API](API.png)
+![ICEES API](ICEES_Swagger_Interface.png)
 
 **Functionality 1: Cohort Discovery**
 
-![Functionality1](Functionality1.png)
+![Functionality1](Discover_Cohort_Query.png)
 
 Shown below is the API output for the above request.
 
-![Functionality1_Output](Functionality1_Output.png)
+![Functionality1_Output](Discover_Cohort_Query_Response.png)
+
+Below is a more focused query and response.
+
+![Functionality1](Discover_Cohort_Query2.png)
+
+![Functionality1_Output](Discover_Cohort_Query_Response2.png)
 
 **Functionality 2: Feature-rich Cohort Discovery**
 
-![Functionality2](Functionality2.png)
+![Functionality2](Features.png)
 
 Shown below is the API output for the above request. In this case, the age distribution for COHORT:1 is provided. Note, however, that statistics are returned for all available feature variables
 
-![Functionality2_Output](Functionality2_Output.png)
+![Functionality2_Output]()
 
 **Functionality 3: Hypothesis-driven 2 x 2 Feature Associations**
 
-![Functionality3](Functionality3.png)
+![Functionality3](Feature_Association_Query.png)
 
 Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 22,810 in year 2010), 17% of those who were prescribed/administered prednisone had >=2 annual ED or inpatient visits for respiratory issues vs 6% of those were not prescribed/administered prednisone (P < 0.0001).
 
@@ -76,15 +82,15 @@ Prednisone use is a common indicator of a patient with severe asthma.
 
 *Fecho et al., accepted for submission as a Special Communication in Journal of Biomedical Informatics*
 
-![Functionality3_Output](Functionality3_Output.png)
+![Functionality3_Output](Feature_Association_Query_Response.png)
 
 **Functionality 4: Exploratory 1 X N Feature Associations**
 
-![Functionality4](Functionality4.png)
+![Functionality4](Association_To_All_Features_Query.png)
 
 Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 23,093 in year 2010, v1.0.0), the percentage of patients with >=2 ED or inpatient visits for respiratory issues increases with increasing levels of exposure to particulate matter <=2.5-microns in diameter (P < 0.0001). The non-linearity of the exposure-response curve imposed by Bin 5 reflects the fact that only 11 patients were binned into that exposure category. A new ICEES feature accounts for this issue by allowing users to collapse contiguous bins and/or choose from a variety of binning strategies via the selection of feature variables (see ICEES documentation).
 
-![Functionality4_Output](Functionality4_Output.png)
+![Functionality4_Output](Association_To_All_Features_Query_Reponse.png)
 
 ## ICEES OpenAPIs
 
