@@ -50,6 +50,8 @@ ICEES is accessible via an OpenAPI.
 **ICEES API**
 ![ICEES API](ICEES_Swagger_Interface.png)
 
+![ICEES Functionalities](ICEES_Functionalities.png)
+
 **Functionality 1: Cohort Discovery**
 
 ![Functionality1](Discover_Cohort_Query.png)
@@ -57,6 +59,8 @@ ICEES is accessible via an OpenAPI.
 Shown below is the API output for the above request.
 
 ![Functionality1_Output](Discover_Cohort_Query_Response.png)
+
+![Functionality1_Output](Discover_Cohort_Query_Response-b.png)
 
 Below is a more focused query and response.
 
@@ -66,7 +70,7 @@ Below is a more focused query and response.
 
 **Functionality 2: Feature-rich Cohort Discovery**
 
-![Functionality2](Features.png)
+![Functionality2](Features_Query.png)
 
 Shown below is the API output for the above request. In this case, the age distribution for COHORT:1 is provided. Note, however, that statistics are returned for all available feature variables
 
@@ -79,8 +83,6 @@ Shown below is the API output for the above request. In this case, the age distr
 Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 22,810 in year 2010), 17% of those who were prescribed/administered prednisone had >=2 annual ED or inpatient visits for respiratory issues vs 6% of those were not prescribed/administered prednisone (P < 0.0001).
 
 Prednisone use is a common indicator of a patient with severe asthma.
-
-*Fecho et al., accepted for submission as a Special Communication in Journal of Biomedical Informatics*
 
 ![Functionality3_Output](Feature_Association_Query_Response.png)
 
