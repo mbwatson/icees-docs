@@ -8,7 +8,7 @@ seo:
 ---
 ## ICEES (Integrated Clinical and Environmental Exposures Service)
 
-![ICEES_Logo](ICEES_Logo.png)
+![ICEES_Logo](ICEES_Logo_small.png)
 
 ## Overview
 Access to clinical data is critical for the advancement of translational research. Yet, the many regulations that surround the use of clinical data, while critical to ensure and respect patient privacy, often hinder access to clinical data for research purposes. Moreover, the ability to share clinical data across institutions is central to open team science and the success of multi-institutional consortia such as The Biomedical Data Translator Consortium. One of the goals of the Translator program is to find novel ways to openly share computable data, including sensitive clinical data, and allow its integration in surprising ways (Ahalt et al. 2019).
@@ -80,9 +80,7 @@ Shown below is the API output for the above request. In this case, the age distr
 
 ![Functionality3](Feature_Association_Query.png)
 
-Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 22,810 in year 2010), 17% of those who were prescribed/administered prednisone had >=2 annual ED or inpatient visits for respiratory issues vs 6% of those were not prescribed/administered prednisone (P < 0.0001).
-
-Prednisone use is a common indicator of a patient with severe asthma.
+Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 159,331), 90.49% of those who were prescribed/administered prednisone had >=1 annual ED or inpatient visits for respiratory issues in 2010 vs 11.02% of those were not prescribed/administered prednisone (P < 0.0001). Note that prednisone use is a common indicator of a patient with severe asthma.
 
 ![Functionality3_Output](Feature_Association_Query_Response.png)
 
@@ -90,7 +88,7 @@ Prednisone use is a common indicator of a patient with severe asthma.
 
 ![Functionality4](Association_To_All_Features_Query.png)
 
-Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 23,093 in year 2010, v1.0.0), the percentage of patients with >=2 ED or inpatient visits for respiratory issues increases with increasing levels of exposure to particulate matter <=2.5-microns in diameter (P < 0.0001). The non-linearity of the exposure-response curve imposed by Bin 5 reflects the fact that only 11 patients were binned into that exposure category. A new ICEES feature accounts for this issue by allowing users to collapse contiguous bins and/or choose from a variety of binning strategies via the selection of feature variables (see ICEES documentation).
+Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 120,908), the percentage of patients with >=1 ED or inpatient visits for respiratory issues in 2010 increases with increasing levels of exposure to particulate matter <=2.5-microns in diameter (P < 0.0001).
 
 ![Functionality4_Output](Association_To_All_Features_Query_Reponse.png)
 
