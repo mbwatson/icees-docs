@@ -88,7 +88,7 @@ Shown below is the API output for the above request. This example shows that for
 
 Shown below is the API output for the above request. This example shows that for patients with asthma-like conditions (N = 120,908), the percentage of patients with >=1 ED or inpatient visits for respiratory issues in 2010 increases with increasing levels of exposure to particulate matter <=2.5-microns in diameter (P < 0.0001).
 
-![Functionality4_Output](Association_To_All_Features_Query_Reponse.png)
+![Functionality4](Association_To_All_Features_Query_Response.png)
 
 ## ICEES OpenAPIs
 
