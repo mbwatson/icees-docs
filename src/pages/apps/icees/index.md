@@ -72,9 +72,7 @@ Below is a more focused query and response.
 
 ![Functionality2](Features_Query.png)
 
-Shown below is the API output for the above request. In this case, the age distribution for COHORT:1 is provided. Note, however, that statistics are returned for all available feature variables
-
-![Functionality2_Output]()
+This query will return statistics on all available feature variables for the selected cohort.
 
 **Functionality 3: Hypothesis-driven 2 x 2 Feature Associations**
 
